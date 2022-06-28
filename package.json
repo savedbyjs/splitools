@@ -1,0 +1,21 @@
+{
+  "name": "splitools",
+  "version": "1.0.0",
+  "description": "Split URL",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/savedbyjs/splitools.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/savedbyjs/splitools/issues"
+  },
+  "homepage": "https://github.com/savedbyjs/splitools#readme"
+}
