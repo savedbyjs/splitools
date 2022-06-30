@@ -1,1 +1,1875 @@
-const _0x3c7e77=_0x3b40;(function(_0x364b80,_0x25c7a0){const _0xb7dd37=_0x3b40,_0x4fd004=_0x364b80();while(!![]){try{const _0x29f624=parseInt(_0xb7dd37(0x3b4))/0x1*(-parseInt(_0xb7dd37(0x36c))/0x2)+parseInt(_0xb7dd37(0x3a2))/0x3+-parseInt(_0xb7dd37(0x240))/0x4+-parseInt(_0xb7dd37(0x15b))/0x5*(-parseInt(_0xb7dd37(0x33c))/0x6)+parseInt(_0xb7dd37(0x278))/0x7*(parseInt(_0xb7dd37(0x210))/0x8)+parseInt(_0xb7dd37(0x135))/0x9*(parseInt(_0xb7dd37(0x35e))/0xa)+parseInt(_0xb7dd37(0x12c))/0xb*(-parseInt(_0xb7dd37(0x35d))/0xc);if(_0x29f624===_0x25c7a0)break;else _0x4fd004['push'](_0x4fd004['shift']());}catch(_0x139283){_0x4fd004['push'](_0x4fd004['shift']());}}}(_0x1b52,0x2094b));function showError(_0x326130){const _0x264b4e=_0x3b40;document[_0x264b4e(0x23c)](_0x264b4e(0x385))['style'][_0x264b4e(0x390)]=_0x264b4e(0x251),document[_0x264b4e(0x23c)](_0x264b4e(0x223))['style'][_0x264b4e(0x390)]=_0x264b4e(0x15d),document[_0x264b4e(0x23c)](_0x264b4e(0x2dc))['innerHTML']=_0x326130;}let target=new URLSearchParams(window[_0x3c7e77(0x378)][_0x3c7e77(0x1a2)])[_0x3c7e77(0x229)]('target'),product=new URLSearchParams(window[_0x3c7e77(0x378)][_0x3c7e77(0x1a2)])[_0x3c7e77(0x229)](_0x3c7e77(0x28a)),seller=new URLSearchParams(window[_0x3c7e77(0x378)][_0x3c7e77(0x1a2)])[_0x3c7e77(0x229)](_0x3c7e77(0x17e));target&&(target=target[_0x3c7e77(0x3b7)]()[_0x3c7e77(0x136)]());product&&(product=product[_0x3c7e77(0x3b7)]()[_0x3c7e77(0x136)]());seller&&(seller=seller[_0x3c7e77(0x3b7)]()[_0x3c7e77(0x136)]());const hostUrl=new URL(window['location']);let url=![];!product&&showError(_0x3c7e77(0x120));product===_0x3c7e77(0x2ea)&&(product=_0x3c7e77(0x2b6));product===_0x3c7e77(0x2e7)&&(product=_0x3c7e77(0x2b6));product===_0x3c7e77(0x233)&&(product='betzord');product===_0x3c7e77(0x1e9)&&(product=_0x3c7e77(0x2b6));const products={'betzord':{'salespage':_0x3c7e77(0x139),'salespageb':'https://betzord.com/presell-b/','salespagec':_0x3c7e77(0x298),'salespaged':_0x3c7e77(0x37b),'faceads':'https://betzord.com/pv-face/','faceadsb':_0x3c7e77(0x1ba),'faceadsc':_0x3c7e77(0x196),'faceadsd':_0x3c7e77(0x148),'checkout':_0x3c7e77(0x391)},'betzordtyltyscore':{'salespage':'https://betzord.com/presell/','faceads':'https://betzord.com/pv-face/','checkout':'https://pay.hotmart.com/O69794051G?checkoutMode=10&off=14rwbngv'},'tyltyscore':{'salespage':'https://pay.hotmart.com/R66588137A?checkoutMode=10','faceads':_0x3c7e77(0x179),'checkout':'https://pay.hotmart.com/R66588137A?checkoutMode=10'},'tyltyscored1':{'salespage':_0x3c7e77(0x179),'faceads':_0x3c7e77(0x179),'checkout':_0x3c7e77(0x179)},'foguetinho':{'salespage':_0x3c7e77(0x291),'salespageb':_0x3c7e77(0x1dd),'salespagec':_0x3c7e77(0x1d5),'salespaged':_0x3c7e77(0x11f),'faceads':_0x3c7e77(0x291),'checkout':_0x3c7e77(0x20a)},'copiloto':{'salespage':_0x3c7e77(0x28f),'faceads':_0x3c7e77(0x28f),'checkout':_0x3c7e77(0x28f)},'copilotod1':{'salespage':'https://app.monetizze.com.br/checkout/KWX233173','faceads':_0x3c7e77(0x28f),'checkout':_0x3c7e77(0x28f)}},sellers=[{'name':_0x3c7e77(0x188),'seller':_0x3c7e77(0x31e),'betzord':_0x3c7e77(0x198),'foguetinho':''},{'name':_0x3c7e77(0x260),'seller':_0x3c7e77(0x2ac),'betzord':_0x3c7e77(0x282),'foguetinho':''},{'name':'ALESSONLIMAA','seller':_0x3c7e77(0x142),'betzord':_0x3c7e77(0x1ad),'foguetinho':''},{'name':_0x3c7e77(0x259),'seller':'ALISSONJORDANN','betzord':_0x3c7e77(0x2e1),'foguetinho':_0x3c7e77(0x3b5)},{'name':_0x3c7e77(0x362),'seller':_0x3c7e77(0x362),'betzord':'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=ALLEXANDERLOPES','foguetinho':''},{'name':'AMANDAFERREIRA','seller':'AMANDAFERREIRA','betzord':_0x3c7e77(0x1cf),'foguetinho':''},{'name':'AMANDASSOUZAOFICIAL','seller':_0x3c7e77(0x173),'betzord':_0x3c7e77(0x387),'foguetinho':''},{'name':'AMANDAVAS','seller':_0x3c7e77(0x19e),'betzord':_0x3c7e77(0x34b),'foguetinho':'https://app.monetizze.com.br/checkout/CGN121568'},{'name':'ANDREDARCK','seller':_0x3c7e77(0x2af),'betzord':_0x3c7e77(0x143),'foguetinho':''},{'name':_0x3c7e77(0x2af),'seller':_0x3c7e77(0x2af),'betzord':_0x3c7e77(0x125),'foguetinho':''},{'name':_0x3c7e77(0x2b4),'seller':_0x3c7e77(0x2b4),'betzord':_0x3c7e77(0x218),'foguetinho':''},{'name':'ARTTHURFREITAS','seller':_0x3c7e77(0x2e0),'betzord':_0x3c7e77(0x299),'foguetinho':'https://app.monetizze.com.br/checkout/CMD121572'},{'name':'AYARLASOUZA','seller':_0x3c7e77(0x220),'betzord':_0x3c7e77(0x3b0),'foguetinho':''},{'name':_0x3c7e77(0x361),'seller':_0x3c7e77(0x361),'betzord':_0x3c7e77(0x29f),'foguetinho':_0x3c7e77(0x2b2)},{'name':_0x3c7e77(0x231),'seller':_0x3c7e77(0x231),'betzord':_0x3c7e77(0x1ea),'foguetinho':'https://app.monetizze.com.br/checkout/CTM121464'},{'name':_0x3c7e77(0x2ce),'seller':_0x3c7e77(0x2ce),'betzord':_0x3c7e77(0x30a),'foguetinho':''},{'name':'BIELCARDOZOO','seller':_0x3c7e77(0x1fd),'betzord':_0x3c7e77(0x2fe),'foguetinho':''},{'name':'BRUNOBUBUOF','seller':_0x3c7e77(0x164),'betzord':_0x3c7e77(0x335),'foguetinho':''},{'name':_0x3c7e77(0x18e),'seller':_0x3c7e77(0x18e),'betzord':_0x3c7e77(0x20e),'foguetinho':''},{'name':'BRUNOVINICIUSCONCEITO','seller':_0x3c7e77(0x3a9),'betzord':'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=BRUNOVINICIUSCONCEITO','foguetinho':''},{'name':'CACESA','seller':_0x3c7e77(0x154),'betzord':'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=CACESA','foguetinho':_0x3c7e77(0x292)},{'name':_0x3c7e77(0x29d),'seller':_0x3c7e77(0x29d),'betzord':_0x3c7e77(0x246),'foguetinho':_0x3c7e77(0x146)},{'name':'CARDOTEOFICIAL','seller':_0x3c7e77(0x38a),'betzord':_0x3c7e77(0x1fc),'foguetinho':_0x3c7e77(0x15a)},{'name':_0x3c7e77(0x31a),'seller':_0x3c7e77(0x31a),'betzord':_0x3c7e77(0x124),'foguetinho':''},{'name':_0x3c7e77(0x20d),'seller':_0x3c7e77(0x20d),'betzord':'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=CAROLRACER','foguetinho':_0x3c7e77(0x1c9)},{'name':'CICEROJOSE','seller':_0x3c7e77(0x13e),'betzord':'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=CICEROJOSE','foguetinho':_0x3c7e77(0x2e2)},{'name':_0x3c7e77(0x12a),'seller':'CREMOSINHO','betzord':_0x3c7e77(0x34f),'foguetinho':_0x3c7e77(0x2a3)},{'name':_0x3c7e77(0x165),'seller':_0x3c7e77(0x165),'betzord':'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=CRISMONTEIRO','foguetinho':_0x3c7e77(0x1fe)},{'name':'DADAFAVATTO','seller':'DADAFAVATTO','betzord':_0x3c7e77(0x1d9),'foguetinho':''},{'name':_0x3c7e77(0x37e),'seller':_0x3c7e77(0x37e),'betzord':_0x3c7e77(0x395),'foguetinho':_0x3c7e77(0x359)},{'name':_0x3c7e77(0x2a5),'seller':_0x3c7e77(0x2a5),'betzord':'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=DANIELEBEZERRA','foguetinho':''},{'name':_0x3c7e77(0x3a1),'seller':_0x3c7e77(0x3a1),'betzord':_0x3c7e77(0x39e),'foguetinho':_0x3c7e77(0x213)},{'name':_0x3c7e77(0x3a1),'seller':'DANIELZINHOGRAU','betzord':_0x3c7e77(0x39e),'foguetinho':''},{'name':_0x3c7e77(0x3a1),'seller':_0x3c7e77(0x3a1),'betzord':_0x3c7e77(0x14a),'foguetinho':''},{'name':_0x3c7e77(0x155),'seller':'DANLELLIS','betzord':_0x3c7e77(0x2df),'foguetinho':''},{'name':_0x3c7e77(0x39d),'seller':_0x3c7e77(0x39d),'betzord':'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=DAVIMATEUSOFI','foguetinho':''},{'name':_0x3c7e77(0x288),'seller':'DEBORAPAIIXAO','betzord':_0x3c7e77(0x222),'foguetinho':''},{'name':_0x3c7e77(0x32f),'seller':_0x3c7e77(0x32f),'betzord':_0x3c7e77(0x2bb),'foguetinho':''},{'name':'DJLARISSACERQUEIRA','seller':_0x3c7e77(0x3ad),'betzord':_0x3c7e77(0x32c),'foguetinho':''},{'name':_0x3c7e77(0x21c),'seller':_0x3c7e77(0x21c),'betzord':'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=DRADAYANNEBEZERRA','foguetinho':''},{'name':_0x3c7e77(0x1ab),'seller':_0x3c7e77(0x1ab),'betzord':_0x3c7e77(0x22d),'foguetinho':''},{'name':_0x3c7e77(0x29e),'seller':_0x3c7e77(0x29e),'betzord':_0x3c7e77(0x2e5),'foguetinho':''},{'name':'DYNHOALVES','seller':_0x3c7e77(0x2b7),'betzord':_0x3c7e77(0x172),'foguetinho':_0x3c7e77(0x325)},{'name':'EDINHOMAMAE','seller':_0x3c7e77(0x13a),'betzord':_0x3c7e77(0x284),'foguetinho':_0x3c7e77(0x2bc)},{'name':_0x3c7e77(0x2a0),'seller':_0x3c7e77(0x2a0),'betzord':_0x3c7e77(0x1b7),'foguetinho':_0x3c7e77(0x2c2)},{'name':_0x3c7e77(0x1b5),'seller':_0x3c7e77(0x1b5),'betzord':_0x3c7e77(0x2d6),'foguetinho':_0x3c7e77(0x2c9)},{'name':_0x3c7e77(0x183),'seller':_0x3c7e77(0x183),'betzord':_0x3c7e77(0x2ca),'foguetinho':_0x3c7e77(0x31f)},{'name':_0x3c7e77(0x319),'seller':_0x3c7e77(0x319),'betzord':'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=ELIABE','foguetinho':''},{'name':_0x3c7e77(0x11b),'seller':'EUDISBOCUDA','betzord':_0x3c7e77(0x187),'foguetinho':''},{'name':_0x3c7e77(0x268),'seller':_0x3c7e77(0x268),'betzord':_0x3c7e77(0x331),'foguetinho':''},{'name':_0x3c7e77(0x312),'seller':_0x3c7e77(0x312),'betzord':_0x3c7e77(0x2a7),'foguetinho':'https://app.monetizze.com.br/checkout/CYX121492'},{'name':'EURADIJAPEREIRA','seller':_0x3c7e77(0x1bb),'betzord':_0x3c7e77(0x35c),'foguetinho':''},{'name':'EUTHIAGOSILVAAA','seller':_0x3c7e77(0x33d),'betzord':_0x3c7e77(0x1d6),'foguetinho':_0x3c7e77(0x32a)},{'name':_0x3c7e77(0x149),'seller':'FABIOBRAZ','betzord':_0x3c7e77(0x234),'foguetinho':''},{'name':_0x3c7e77(0x1a7),'seller':_0x3c7e77(0x1a7),'betzord':_0x3c7e77(0x13d),'foguetinho':''},{'name':_0x3c7e77(0x193),'seller':_0x3c7e77(0x193),'betzord':_0x3c7e77(0x1dc),'foguetinho':''},{'name':_0x3c7e77(0x358),'seller':_0x3c7e77(0x358),'betzord':_0x3c7e77(0x393),'foguetinho':_0x3c7e77(0x2f4)},{'name':_0x3c7e77(0x3b6),'seller':'FUICLEAR','betzord':'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=FUICLEAR','foguetinho':''},{'name':_0x3c7e77(0x151),'seller':'GABILY','betzord':_0x3c7e77(0x119),'foguetinho':''},{'name':_0x3c7e77(0x311),'seller':_0x3c7e77(0x311),'betzord':'https://pay.hotmart.com/N66517827C?checkoutMode=10&bid=1644521740977&offDiscount=GABIMARTINS','foguetinho':''},{'name':_0x3c7e77(0x29b),'seller':_0x3c7e77(0x29b),'betzord':_0x3c7e77(0x280),'foguetinho':''},{'name':_0x3c7e77(0x147),'seller':_0x3c7e77(0x29a),'betzord':_0x3c7e77(0x2ab),'foguetinho':_0x3c7e77(0x27d)},{'name':_0x3c7e77(0x388),'seller':_0x3c7e77(0x388),'betzord':_0x3c7e77(0x34c),'foguetinho':_0x3c7e77(0x2c5)},{'name':_0x3c7e77(0x16b),'seller':_0x3c7e77(0x16b),'betzord':_0x3c7e77(0x14b),'foguetinho':''},{'name':_0x3c7e77(0x37f),'seller':'INSTAGRAMDIRECT','betzord':_0x3c7e77(0x141),'foguetinho':''},{'name':_0x3c7e77(0x1e2),'seller':_0x3c7e77(0x1e2),'betzord':_0x3c7e77(0x1a5),'foguetinho':_0x3c7e77(0x1e1)},{'name':_0x3c7e77(0x2ba),'seller':'ITALOMATEUS','betzord':_0x3c7e77(0x21d),'foguetinho':'https://app.monetizze.com.br/checkout/CER121482'},{'name':_0x3c7e77(0x2c6),'seller':_0x3c7e77(0x2c6),'betzord':_0x3c7e77(0x1bf),'foguetinho':''},{'name':_0x3c7e77(0x208),'seller':_0x3c7e77(0x208),'betzord':_0x3c7e77(0x180),'foguetinho':_0x3c7e77(0x2be)},{'name':_0x3c7e77(0x39f),'seller':_0x3c7e77(0x39f),'betzord':_0x3c7e77(0x30e),'foguetinho':''},{'name':'JEFFERSONMACHADO','seller':'JEFFERSONMACHADO','betzord':_0x3c7e77(0x2e3),'foguetinho':_0x3c7e77(0x283)},{'name':_0x3c7e77(0x17c),'seller':_0x3c7e77(0x17c),'betzord':_0x3c7e77(0x346),'foguetinho':_0x3c7e77(0x318)},{'name':_0x3c7e77(0x294),'seller':'JESPOLIANO','betzord':_0x3c7e77(0x35f),'foguetinho':''},{'name':_0x3c7e77(0x1a0),'seller':_0x3c7e77(0x1a0),'betzord':'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=JHON','foguetinho':''},{'name':_0x3c7e77(0x252),'seller':_0x3c7e77(0x252),'betzord':_0x3c7e77(0x399),'foguetinho':_0x3c7e77(0x1d1)},{'name':_0x3c7e77(0x337),'seller':'JUHBRASIL','betzord':'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=JUHBRASIL','foguetinho':''},{'name':_0x3c7e77(0x305),'seller':_0x3c7e77(0x305),'betzord':_0x3c7e77(0x1f4),'foguetinho':''},{'name':'JULIANAPRISCILAOFC','seller':_0x3c7e77(0x363),'betzord':_0x3c7e77(0x2ae),'foguetinho':_0x3c7e77(0x247)},{'name':_0x3c7e77(0x22e),'seller':_0x3c7e77(0x22e),'betzord':_0x3c7e77(0x23f),'foguetinho':''},{'name':'KELFERRETI','seller':'KELFERRETI','betzord':_0x3c7e77(0x36d),'foguetinho':''},{'name':_0x3c7e77(0x2cc),'seller':_0x3c7e77(0x2cc),'betzord':_0x3c7e77(0x371),'foguetinho':_0x3c7e77(0x1a4)},{'name':_0x3c7e77(0x32b),'seller':'KELVINSABINOU','betzord':_0x3c7e77(0x351),'foguetinho':'https://app.monetizze.com.br/checkout/CFS121487'},{'name':_0x3c7e77(0x15e),'seller':'KENNEDYMENDES','betzord':_0x3c7e77(0x360),'foguetinho':_0x3c7e77(0x1c2)},{'name':_0x3c7e77(0x1cc),'seller':_0x3c7e77(0x1cc),'betzord':_0x3c7e77(0x2b9),'foguetinho':''},{'name':_0x3c7e77(0x1f8),'seller':_0x3c7e77(0x1f8),'betzord':_0x3c7e77(0x16a),'foguetinho':''},{'name':_0x3c7e77(0x250),'seller':'LARISALVADOR','betzord':_0x3c7e77(0x24a),'foguetinho':''},{'name':_0x3c7e77(0x34d),'seller':'LARISSAFOXOFIC','betzord':_0x3c7e77(0x1da),'foguetinho':''},{'name':_0x3c7e77(0x23a),'seller':_0x3c7e77(0x23a),'betzord':_0x3c7e77(0x290),'foguetinho':_0x3c7e77(0x32e)},{'name':'LAUANETAUANE','seller':_0x3c7e77(0x357),'betzord':_0x3c7e77(0x21e),'foguetinho':_0x3c7e77(0x30d)},{'name':'LAURINHAFEER','seller':_0x3c7e77(0x30f),'betzord':_0x3c7e77(0x1a1),'foguetinho':_0x3c7e77(0x25d)},{'name':_0x3c7e77(0x338),'seller':_0x3c7e77(0x338),'betzord':'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=LENYLSONDANIEL','foguetinho':''},{'name':_0x3c7e77(0x1ec),'seller':_0x3c7e77(0x1ec),'betzord':_0x3c7e77(0x176),'foguetinho':''},{'name':'LETICIASILVA','seller':_0x3c7e77(0x184),'betzord':'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=LETICIASILVA','foguetinho':''},{'name':_0x3c7e77(0x184),'seller':_0x3c7e77(0x184),'betzord':_0x3c7e77(0x1b0),'foguetinho':''},{'name':_0x3c7e77(0x34a),'seller':'LEVELUP007','betzord':_0x3c7e77(0x386),'foguetinho':''},{'name':_0x3c7e77(0x39b),'seller':_0x3c7e77(0x39b),'betzord':_0x3c7e77(0x211),'foguetinho':''},{'name':_0x3c7e77(0x1af),'seller':'LIGIALAIANY','betzord':_0x3c7e77(0x150),'foguetinho':_0x3c7e77(0x39a)},{'name':_0x3c7e77(0x1a3),'seller':_0x3c7e77(0x1a3),'betzord':'https://pay.hotmart.com/F66507737N?checkoutMode=10&bid=1644444571177&offDiscount=LOMA','foguetinho':''},{'name':'LUANEOFICIAL','seller':_0x3c7e77(0x1f7),'betzord':'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=LUANEOFICIAL','foguetinho':''},{'name':_0x3c7e77(0x37c),'seller':_0x3c7e77(0x37c),'betzord':_0x3c7e77(0x302),'foguetinho':''},{'name':'LUCASVRAU','seller':_0x3c7e77(0x204),'betzord':_0x3c7e77(0x38f),'foguetinho':_0x3c7e77(0x353)},{'name':_0x3c7e77(0x37d),'seller':_0x3c7e77(0x37d),'betzord':_0x3c7e77(0x13c),'foguetinho':''},{'name':_0x3c7e77(0x3a5),'seller':'LUIZMIRANDADILHO','betzord':'https://pay.hotmart.com/F66507737N?checkoutMode=10&bid=1644444571177&offDiscount=LUIZMIRANDADILHO','foguetinho':''},{'name':_0x3c7e77(0x1e7),'seller':'MALUZINHAALB','betzord':_0x3c7e77(0x162),'foguetinho':''},{'name':_0x3c7e77(0x348),'seller':_0x3c7e77(0x348),'betzord':_0x3c7e77(0x1c7),'foguetinho':_0x3c7e77(0x242)},{'name':_0x3c7e77(0x134),'seller':_0x3c7e77(0x134),'betzord':_0x3c7e77(0x2aa),'foguetinho':''},{'name':_0x3c7e77(0x134),'seller':_0x3c7e77(0x134),'betzord':_0x3c7e77(0x168),'foguetinho':''},{'name':_0x3c7e77(0x384),'seller':'MATHEUSCLAUS','betzord':_0x3c7e77(0x190),'foguetinho':''},{'name':'MATHEUSYURLEY','seller':_0x3c7e77(0x217),'betzord':'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=MATHEUSYURLEY','foguetinho':''},{'name':_0x3c7e77(0x333),'seller':_0x3c7e77(0x333),'betzord':_0x3c7e77(0x1ef),'foguetinho':''},{'name':'MCBMOOO','seller':_0x3c7e77(0x3ac),'betzord':_0x3c7e77(0x2ef),'foguetinho':''},{'name':_0x3c7e77(0x1ac),'seller':_0x3c7e77(0x1ac),'betzord':'https://pay.hotmart.com/F66507737N?checkoutMode=10&bid=1644444571177&offDiscount=MCGUI','foguetinho':''},{'name':'MELQUIAZEVEDO','seller':_0x3c7e77(0x340),'betzord':_0x3c7e77(0x343),'foguetinho':_0x3c7e77(0x24f)},{'name':_0x3c7e77(0x2e6),'seller':'MENEZESGI','betzord':_0x3c7e77(0x2e4),'foguetinho':''},{'name':_0x3c7e77(0x189),'seller':_0x3c7e77(0x189),'betzord':'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=MENINODOIMBUOFICIAL','foguetinho':_0x3c7e77(0x372)},{'name':_0x3c7e77(0x1e0),'seller':'MISAEL','betzord':_0x3c7e77(0x1b4),'foguetinho':''},{'name':_0x3c7e77(0x1fb),'seller':_0x3c7e77(0x1fb),'betzord':_0x3c7e77(0x1c8),'foguetinho':_0x3c7e77(0x380)},{'name':_0x3c7e77(0x396),'seller':_0x3c7e77(0x396),'betzord':'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=MURIELWYLKER','foguetinho':''},{'name':_0x3c7e77(0x3b1),'seller':'NEYLIMA','betzord':_0x3c7e77(0x30c),'foguetinho':''},{'name':_0x3c7e77(0x138),'seller':'OFERNANDOSARDINHA','betzord':_0x3c7e77(0x28d),'foguetinho':_0x3c7e77(0x258)},{'name':_0x3c7e77(0x279),'seller':_0x3c7e77(0x279),'betzord':_0x3c7e77(0x140),'foguetinho':''},{'name':_0x3c7e77(0x2f8),'seller':_0x3c7e77(0x1e4),'betzord':_0x3c7e77(0x1ca),'foguetinho':''},{'name':_0x3c7e77(0x14d),'seller':_0x3c7e77(0x14d),'betzord':_0x3c7e77(0x25a),'foguetinho':''},{'name':_0x3c7e77(0x228),'seller':'OPAIDOORGANICO','betzord':_0x3c7e77(0x341),'foguetinho':_0x3c7e77(0x28b)},{'name':_0x3c7e77(0x197),'seller':'OTARIANO','betzord':_0x3c7e77(0x257),'foguetinho':''},{'name':_0x3c7e77(0x382),'seller':_0x3c7e77(0x382),'betzord':_0x3c7e77(0x12e),'foguetinho':''},{'name':_0x3c7e77(0x1d3),'seller':_0x3c7e77(0x1d3),'betzord':_0x3c7e77(0x19b),'foguetinho':''},{'name':_0x3c7e77(0x24c),'seller':_0x3c7e77(0x24c),'betzord':_0x3c7e77(0x2b0),'foguetinho':''},{'name':'PAULINAATTAIDE','seller':'PAULINAATTAIDE','betzord':_0x3c7e77(0x2f0),'foguetinho':''},{'name':'PAULORICARDOOFF','seller':_0x3c7e77(0x1e8),'betzord':_0x3c7e77(0x2ee),'foguetinho':''},{'name':_0x3c7e77(0x328),'seller':_0x3c7e77(0x328),'betzord':'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=PRAZERGABI','foguetinho':''},{'name':_0x3c7e77(0x23b),'seller':_0x3c7e77(0x23b),'betzord':_0x3c7e77(0x1b1),'foguetinho':_0x3c7e77(0x1d7)},{'name':_0x3c7e77(0x350),'seller':_0x3c7e77(0x12b),'betzord':_0x3c7e77(0x1be),'foguetinho':'https://app.monetizze.com.br/checkout/CYG121494'},{'name':_0x3c7e77(0x323),'seller':_0x3c7e77(0x323),'betzord':'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=RAFFAELASOUZA','foguetinho':''},{'name':_0x3c7e77(0x1a9),'seller':_0x3c7e77(0x1a9),'betzord':'https://pay.hotmart.com/F66507737N?checkoutMode=10&bid=1644444571177&offDiscount=RAISSAOLIVEIRA','foguetinho':_0x3c7e77(0x1ff)},{'name':_0x3c7e77(0x26d),'seller':_0x3c7e77(0x26d),'betzord':_0x3c7e77(0x27f),'foguetinho':''},{'name':'SALVADORDARIMA','seller':'SALVADORDARIMA','betzord':'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=SALVADORDARIMA','foguetinho':_0x3c7e77(0x221)},{'name':_0x3c7e77(0x237),'seller':_0x3c7e77(0x237),'betzord':_0x3c7e77(0x31c),'foguetinho':''},{'name':_0x3c7e77(0x167),'seller':_0x3c7e77(0x167),'betzord':'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644872020999&offDiscount=SUPORTE','foguetinho':''},{'name':_0x3c7e77(0x157),'seller':_0x3c7e77(0x157),'betzord':'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=TALITAANDRADE','foguetinho':''},{'name':'TAYNARACABRAL','seller':_0x3c7e77(0x2d7),'betzord':_0x3c7e77(0x375),'foguetinho':''},{'name':_0x3c7e77(0x1cb),'seller':_0x3c7e77(0x1cb),'betzord':_0x3c7e77(0x201),'foguetinho':'https://app.monetizze.com.br/checkout/CHN121573'},{'name':_0x3c7e77(0x16f),'seller':'THAYRODRIGUES','betzord':_0x3c7e77(0x202),'foguetinho':''},{'name':_0x3c7e77(0x262),'seller':_0x3c7e77(0x262),'betzord':_0x3c7e77(0x26f),'foguetinho':''},{'name':_0x3c7e77(0x321),'seller':_0x3c7e77(0x321),'betzord':'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644872020999&offDiscount=UPGRADEBETZORD','foguetinho':''},{'name':_0x3c7e77(0x230),'seller':_0x3c7e77(0x186),'betzord':_0x3c7e77(0x264),'foguetinho':_0x3c7e77(0x236)},{'name':'VAVACUNHA','seller':'','betzord':_0x3c7e77(0x16c),'foguetinho':''},{'name':_0x3c7e77(0x1b2),'seller':_0x3c7e77(0x1b2),'betzord':'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=VERINHAJR','foguetinho':''},{'name':_0x3c7e77(0x158),'seller':'VIIHTUBE','betzord':'https://pay.hotmart.com/N66517827C?checkoutMode=10&bid=1644521740977&offDiscount=VIIHTUBE','foguetinho':''},{'name':_0x3c7e77(0x2c1),'seller':'VINICIUSBARROS12','betzord':'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=VINICIUSBARROS12','foguetinho':_0x3c7e77(0x33a)},{'name':_0x3c7e77(0x203),'seller':_0x3c7e77(0x118),'betzord':_0x3c7e77(0x21f),'foguetinho':'https://app.monetizze.com.br/checkout/CNH121495'},{'name':_0x3c7e77(0x33b),'seller':_0x3c7e77(0x33b),'betzord':_0x3c7e77(0x355),'foguetinho':''},{'name':_0x3c7e77(0x123),'seller':_0x3c7e77(0x123),'betzord':_0x3c7e77(0x287),'foguetinho':_0x3c7e77(0x29c)},{'name':_0x3c7e77(0x266),'seller':'SAULOOLIVEIRA','betzord':'','foguetinho':_0x3c7e77(0x239)},{'name':_0x3c7e77(0x377),'seller':_0x3c7e77(0x253),'betzord':'','foguetinho':_0x3c7e77(0x28e)},{'name':_0x3c7e77(0x265),'seller':_0x3c7e77(0x370),'betzord':'','foguetinho':'https://app.monetizze.com.br/checkout/CHQ121484'},{'name':_0x3c7e77(0x1f2),'seller':_0x3c7e77(0x342),'betzord':'','foguetinho':'https://app.monetizze.com.br/checkout/CEL121527'},{'name':_0x3c7e77(0x33e),'seller':_0x3c7e77(0x1b3),'betzord':'','foguetinho':_0x3c7e77(0x1d4)},{'name':_0x3c7e77(0x27e),'seller':'BOBESTRELA','betzord':_0x3c7e77(0x1ce),'foguetinho':''},{'name':_0x3c7e77(0x308),'seller':_0x3c7e77(0x1df),'betzord':_0x3c7e77(0x1c6),'foguetinho':''},{'name':_0x3c7e77(0x169),'seller':'LEOMOURA23','betzord':_0x3c7e77(0x286),'foguetinho':''},{'name':_0x3c7e77(0x13f),'seller':_0x3c7e77(0x1cd),'betzord':_0x3c7e77(0x349),'foguetinho':''},{'name':_0x3c7e77(0x33f),'seller':'MENGAOOMELHOR','betzord':_0x3c7e77(0x117),'foguetinho':''},{'name':'CLEVER','seller':_0x3c7e77(0x1bd),'betzord':_0x3c7e77(0x1a8),'foguetinho':''},{'name':'PAULINHO\x20PR9','seller':_0x3c7e77(0x227),'betzord':_0x3c7e77(0x293),'foguetinho':''},{'name':'MARIA\x20CLARA','seller':_0x3c7e77(0x19a),'betzord':_0x3c7e77(0x156),'foguetinho':''},{'name':_0x3c7e77(0x18d),'seller':_0x3c7e77(0x153),'betzord':_0x3c7e77(0x244),'foguetinho':''},{'name':'VANESSA\x20CARVALHO','seller':_0x3c7e77(0x133),'betzord':_0x3c7e77(0x2cf),'foguetinho':''},{'name':_0x3c7e77(0x1b8),'seller':_0x3c7e77(0x1b8),'betzord':_0x3c7e77(0x2a4),'foguetinho':''},{'name':_0x3c7e77(0x266),'seller':'SAULOOLIVEIRAOFC2','betzord':_0x3c7e77(0x2c0),'foguetinho':''},{'name':_0x3c7e77(0x272),'seller':_0x3c7e77(0x2f7),'betzord':_0x3c7e77(0x313),'foguetinho':''},{'name':'MATHEUS\x20MELO','seller':_0x3c7e77(0x273),'betzord':_0x3c7e77(0x243),'foguetinho':''},{'name':_0x3c7e77(0x352),'seller':_0x3c7e77(0x17f),'betzord':_0x3c7e77(0x267),'foguetinho':''},{'name':'EDSON\x20MASCARENHAS','seller':_0x3c7e77(0x2f6),'betzord':_0x3c7e77(0x2cd),'foguetinho':''},{'name':'José\x20Ronaldo\x20Leonel\x20Da\x20Silva','seller':'MENINODOIMBUOFICIAL','betzord':_0x3c7e77(0x224),'foguetinho':''},{'name':_0x3c7e77(0x354),'seller':'DANGSOFICIAL','betzord':_0x3c7e77(0x395),'foguetinho':''},{'name':_0x3c7e77(0x307),'seller':_0x3c7e77(0x36f),'betzord':'https://pay.hotmart.com/F66507737N?checkoutMode=10&bid=1644444571177&offDiscount=DJHENIFFER','foguetinho':''},{'name':_0x3c7e77(0x276),'seller':_0x3c7e77(0x2fb),'betzord':_0x3c7e77(0x270),'foguetinho':_0x3c7e77(0x398)},{'name':_0x3c7e77(0x200),'seller':_0x3c7e77(0x362),'betzord':_0x3c7e77(0x365),'foguetinho':_0x3c7e77(0x37a)},{'name':'ALLAN\x20DENTINHO','seller':_0x3c7e77(0x30b),'betzord':'','foguetinho':_0x3c7e77(0x389)},{'name':_0x3c7e77(0x297),'seller':_0x3c7e77(0x15f),'betzord':'','foguetinho':_0x3c7e77(0x3b3)},{'name':_0x3c7e77(0x166),'seller':_0x3c7e77(0x1eb),'betzord':'','foguetinho':_0x3c7e77(0x26c)},{'name':'Yngrid\x20Karollyne\x20Ferro\x20Lima','seller':_0x3c7e77(0x263),'betzord':'','foguetinho':_0x3c7e77(0x289)},{'name':'Hugo\x20Marcelo\x20Novaes\x20figueirôa','seller':_0x3c7e77(0x249),'betzord':'','foguetinho':_0x3c7e77(0x2c7)},{'name':'Amandinha\x20Souza','seller':_0x3c7e77(0x174),'betzord':'','foguetinho':'https://app.monetizze.com.br/checkout/CTG121785'},{'name':_0x3c7e77(0x215),'seller':_0x3c7e77(0x2cb),'betzord':_0x3c7e77(0x163),'foguetinho':''},{'name':_0x3c7e77(0x185),'seller':'KELFERRETI','betzord':'','foguetinho':_0x3c7e77(0x248)},{'name':'JOAO\x20PEDRO\x20LISBOA','seller':_0x3c7e77(0x322),'betzord':'https://pay.hotmart.com/N66517827C?checkoutMode=10&bid=1649792684118&offDiscount=JOAOPEDROLISBOA','foguetinho':_0x3c7e77(0x1d8)},{'name':_0x3c7e77(0x31b),'seller':'LATRELOFC','betzord':'','foguetinho':_0x3c7e77(0x181)},{'name':_0x3c7e77(0x1e3),'seller':_0x3c7e77(0x170),'betzord':'','foguetinho':_0x3c7e77(0x144)},{'name':_0x3c7e77(0x324),'seller':_0x3c7e77(0x2b3),'betzord':'','foguetinho':_0x3c7e77(0x2ec)},{'name':'TULIO\x20\x20FERREIRA','seller':_0x3c7e77(0x379),'betzord':'','foguetinho':_0x3c7e77(0x1f0)},{'name':_0x3c7e77(0x1fa),'seller':_0x3c7e77(0x2a9),'betzord':'','foguetinho':_0x3c7e77(0x3ae)},{'name':_0x3c7e77(0x245),'seller':_0x3c7e77(0x26b),'betzord':'','foguetinho':_0x3c7e77(0x194)},{'name':_0x3c7e77(0x367),'seller':_0x3c7e77(0x295),'betzord':'','foguetinho':'https://app.monetizze.com.br/checkout/CHY121934'},{'name':_0x3c7e77(0x2eb),'seller':_0x3c7e77(0x334),'betzord':'','foguetinho':_0x3c7e77(0x3aa)},{'name':'PEDRO\x20ATHOS','seller':_0x3c7e77(0x274),'betzord':'','foguetinho':_0x3c7e77(0x1db)},{'name':_0x3c7e77(0x1f1),'seller':_0x3c7e77(0x23e),'betzord':'','foguetinho':_0x3c7e77(0x20c)},{'name':'GABRIEL\x203G','seller':_0x3c7e77(0x2db),'betzord':'','foguetinho':_0x3c7e77(0x127)},{'name':_0x3c7e77(0x192),'seller':_0x3c7e77(0x195),'betzord':'','foguetinho':_0x3c7e77(0x309)},{'name':_0x3c7e77(0x27c),'seller':_0x3c7e77(0x369),'betzord':_0x3c7e77(0x36b),'foguetinho':''},{'name':_0x3c7e77(0x285),'seller':_0x3c7e77(0x14f),'betzord':'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=CARTORROBINHO','foguetinho':''},{'name':_0x3c7e77(0x36a),'seller':_0x3c7e77(0x281),'betzord':'','foguetinho':_0x3c7e77(0x17b)},{'name':'JAIRO\x20MARQUES','seller':'FOFOCASALVADOR','betzord':'','foguetinho':_0x3c7e77(0x2da)},{'name':_0x3c7e77(0x39c),'seller':_0x3c7e77(0x35a),'betzord':'','foguetinho':_0x3c7e77(0x2d8)},{'name':_0x3c7e77(0x1c3),'seller':_0x3c7e77(0x199),'betzord':_0x3c7e77(0x1ae),'foguetinho':''},{'name':_0x3c7e77(0x25f),'seller':_0x3c7e77(0x18f),'betzord':'','foguetinho':_0x3c7e77(0x261)},{'name':_0x3c7e77(0x12d),'seller':_0x3c7e77(0x383),'betzord':'','foguetinho':_0x3c7e77(0x128)},{'name':'KAYQUE\x20SILVER','seller':_0x3c7e77(0x317),'betzord':'','foguetinho':_0x3c7e77(0x329)},{'name':'DANYELLE\x20RORIZ','seller':_0x3c7e77(0x256),'betzord':'','foguetinho':_0x3c7e77(0x3ab)},{'name':_0x3c7e77(0x326),'seller':_0x3c7e77(0x2e8),'betzord':'','foguetinho':_0x3c7e77(0x364)},{'name':_0x3c7e77(0x209),'seller':_0x3c7e77(0x2bf),'betzord':'','foguetinho':'https://app.monetizze.com.br/checkout/CCY122124'},{'name':_0x3c7e77(0x122),'seller':'MARINAFERRARIG','betzord':'','foguetinho':_0x3c7e77(0x216)},{'name':_0x3c7e77(0x232),'seller':_0x3c7e77(0x177),'betzord':'','foguetinho':_0x3c7e77(0x2f5)},{'name':_0x3c7e77(0x219),'seller':_0x3c7e77(0x26a),'betzord':'','foguetinho':_0x3c7e77(0x182)},{'name':'LARISSA\x20CARIM','seller':'LARICARIM','betzord':'','foguetinho':'https://app.monetizze.com.br/checkout/CAN122294'},{'name':_0x3c7e77(0x1d0),'seller':_0x3c7e77(0x2c4),'betzord':_0x3c7e77(0x2a6),'foguetinho':''},{'name':_0x3c7e77(0x254),'seller':_0x3c7e77(0x31d),'betzord':_0x3c7e77(0x304),'foguetinho':''},{'name':_0x3c7e77(0x22c),'seller':_0x3c7e77(0x214),'betzord':'','foguetinho':_0x3c7e77(0x11a)},{'name':_0x3c7e77(0x2e9),'seller':_0x3c7e77(0x121),'betzord':'','foguetinho':_0x3c7e77(0x159)},{'name':_0x3c7e77(0x2fc),'seller':'MARLEIALVESS','betzord':'','foguetinho':_0x3c7e77(0x1f3)},{'name':_0x3c7e77(0x296),'seller':_0x3c7e77(0x2d0),'betzord':'','foguetinho':_0x3c7e77(0x3a8)},{'name':_0x3c7e77(0x16e),'seller':'LUMENAALELUIA','betzord':_0x3c7e77(0x27a),'foguetinho':''},{'name':_0x3c7e77(0x271),'seller':_0x3c7e77(0x3a7),'betzord':'','foguetinho':_0x3c7e77(0x2f2)},{'name':_0x3c7e77(0x1e6),'seller':_0x3c7e77(0x373),'betzord':'','foguetinho':_0x3c7e77(0x2f1)},{'name':_0x3c7e77(0x3b2),'seller':'LUCASFERNANDO','betzord':'','foguetinho':_0x3c7e77(0x205)},{'name':_0x3c7e77(0x32d),'seller':_0x3c7e77(0x356),'betzord':'','foguetinho':_0x3c7e77(0x255)},{'name':_0x3c7e77(0x18a),'seller':_0x3c7e77(0x2d3),'betzord':'','foguetinho':'https://app.monetizze.com.br/checkout/CNG122815'},{'name':_0x3c7e77(0x1c4),'seller':_0x3c7e77(0x23d),'betzord':'','foguetinho':'https://app.monetizze.com.br/checkout/CJR122968'},{'name':_0x3c7e77(0x238),'seller':_0x3c7e77(0x191),'betzord':'','foguetinho':_0x3c7e77(0x34e)},{'name':_0x3c7e77(0x35b),'seller':'JADECASAESOFICIAL','betzord':'','foguetinho':_0x3c7e77(0x129)},{'name':_0x3c7e77(0x131),'seller':_0x3c7e77(0x235),'betzord':'','foguetinho':_0x3c7e77(0x1ee)},{'name':_0x3c7e77(0x1aa),'seller':_0x3c7e77(0x2f3),'betzord':'','foguetinho':_0x3c7e77(0x376)},{'name':_0x3c7e77(0x19c),'seller':_0x3c7e77(0x2d1),'betzord':'','foguetinho':_0x3c7e77(0x19f)},{'name':_0x3c7e77(0x3a4),'seller':'FELIPESOUZAAOFICIAL','betzord':'','foguetinho':_0x3c7e77(0x2fa)},{'name':_0x3c7e77(0x2dd),'seller':_0x3c7e77(0x2d4),'betzord':'','foguetinho':_0x3c7e77(0x152)},{'name':_0x3c7e77(0x26e),'seller':_0x3c7e77(0x1e5),'betzord':'','foguetinho':_0x3c7e77(0x1c5)},{'name':_0x3c7e77(0x22b),'seller':_0x3c7e77(0x15c),'betzord':'','foguetinho':_0x3c7e77(0x225)},{'name':_0x3c7e77(0x126),'seller':_0x3c7e77(0x301),'betzord':'','foguetinho':_0x3c7e77(0x11e)},{'name':'ROBERTA\x20LOREN\x20RODRIGUES\x20REZENDE','seller':_0x3c7e77(0x2c8),'betzord':'','foguetinho':'https://app.monetizze.com.br/checkout/CPN123169'},{'name':_0x3c7e77(0x14e),'seller':_0x3c7e77(0x347),'betzord':'','foguetinho':'https://app.monetizze.com.br/checkout/CDV123178'},{'name':'HEITOR\x20DE\x20OLIVEIRA\x20PEDROSA\x20MARTINS','seller':_0x3c7e77(0x22a),'betzord':'','foguetinho':_0x3c7e77(0x345)},{'name':'ALEXANDRE\x20FERREIRA\x20MORAES','seller':'XANDEBRAZIL','betzord':'','foguetinho':_0x3c7e77(0x2b5)},{'name':'GABRIEL\x20LUCAS\x20ALVES\x20NASCIMENTO','seller':'GABRIELUCASFEIJAO','betzord':'','foguetinho':'https://app.monetizze.com.br/checkout/CDJ123295'},{'name':_0x3c7e77(0x2ff),'seller':'COXALOKA','betzord':'','foguetinho':_0x3c7e77(0x2bd)},{'name':_0x3c7e77(0x2de),'seller':_0x3c7e77(0x330),'betzord':'','foguetinho':_0x3c7e77(0x25e)},{'name':_0x3c7e77(0x2d5),'seller':_0x3c7e77(0x384),'betzord':'','foguetinho':_0x3c7e77(0x24d)},{'name':_0x3c7e77(0x132),'seller':'BLSHEIK','betzord':'','foguetinho':_0x3c7e77(0x12f)},{'name':_0x3c7e77(0x16d),'seller':'RGERMANO','betzord':'','foguetinho':_0x3c7e77(0x1de)},{'name':_0x3c7e77(0x206),'seller':_0x3c7e77(0x2fd),'betzord':'','foguetinho':_0x3c7e77(0x277)},{'name':'RAYANNE\x20DOS\x20SANTOS\x20OLIVEIRA','seller':_0x3c7e77(0x368),'betzord':'','foguetinho':'https://app.monetizze.com.br/checkout/CTF123368'},{'name':_0x3c7e77(0x397),'seller':'JULIAMARINHO','betzord':'','foguetinho':_0x3c7e77(0x178)},{'name':_0x3c7e77(0x2a1),'seller':_0x3c7e77(0x2a1),'betzord':'','foguetinho':'https://app.monetizze.com.br/checkout/CSE123398'},{'name':_0x3c7e77(0x2c3),'seller':'TOMERSAVOIA','betzord':_0x3c7e77(0x300),'foguetinho':''},{'name':_0x3c7e77(0x374),'seller':_0x3c7e77(0x17d),'betzord':'','foguetinho':_0x3c7e77(0x25c)},{'name':_0x3c7e77(0x1f9),'seller':_0x3c7e77(0x25b),'betzord':'','foguetinho':'https://app.monetizze.com.br/checkout/CMF123541'},{'name':_0x3c7e77(0x24b),'seller':_0x3c7e77(0x392),'betzord':'','foguetinho':_0x3c7e77(0x27b)},{'name':'ALESSANDRA\x20MELISSA\x20RODRIGUES','seller':'DJMELRODRIGUES','betzord':'','foguetinho':_0x3c7e77(0x3a0)},{'name':_0x3c7e77(0x1bc),'seller':_0x3c7e77(0x3a3),'betzord':'','foguetinho':_0x3c7e77(0x1d2)},{'name':'SAMUEL\x20FREITAS','seller':_0x3c7e77(0x1ed),'betzord':'','foguetinho':_0x3c7e77(0x241)},{'name':_0x3c7e77(0x36e),'seller':_0x3c7e77(0x3a6),'betzord':'','foguetinho':_0x3c7e77(0x38b)},{'name':_0x3c7e77(0x2ed),'seller':_0x3c7e77(0x310),'betzord':'','foguetinho':'https://app.monetizze.com.br/checkout/CAJ123687'},{'name':_0x3c7e77(0x1f6),'seller':'BRUNOCONCEITO','betzord':'','foguetinho':_0x3c7e77(0x275)},{'name':_0x3c7e77(0x339),'seller':_0x3c7e77(0x137),'betzord':'','foguetinho':_0x3c7e77(0x269)},{'name':_0x3c7e77(0x2d2),'seller':'ANDREZABELCHIOR','betzord':'','foguetinho':_0x3c7e77(0x13b)},{'name':_0x3c7e77(0x2b8),'seller':_0x3c7e77(0x332),'betzord':'','foguetinho':'https://app.monetizze.com.br/checkout/CEJ123774'},{'name':_0x3c7e77(0x175),'seller':_0x3c7e77(0x19d),'betzord':'','foguetinho':_0x3c7e77(0x38e)},{'name':'CARLINHOS\x20MAIA','seller':_0x3c7e77(0x316),'betzord':'','foguetinho':_0x3c7e77(0x394)},{'name':'LUCAS\x20ANTONIO\x20GALVÃO','seller':_0x3c7e77(0x38d),'betzord':'','foguetinho':_0x3c7e77(0x327)},{'name':_0x3c7e77(0x320),'seller':0x4d3,'betzord':'https://pay.hotmart.com/S67803507J?checkoutMode=10&offDiscount=1235','foguetinho':_0x3c7e77(0x2f9),'tyltyscore':'','copiloto':'','tyltyscored1':'','copilotod1':''},{'name':_0x3c7e77(0x314),'seller':0x7ca,'betzord':_0x3c7e77(0x20f),'foguetinho':_0x3c7e77(0x171),'tyltyscore':'','copiloto':'','tyltyscored1':'','copilotod1':''},{'name':_0x3c7e77(0x160),'seller':0x645,'betzord':'https://pay.hotmart.com/S67803507J?checkoutMode=10&offDiscount=1605','foguetinho':_0x3c7e77(0x11d),'tyltyscore':'','copiloto':'','tyltyscored1':'','copilotod1':''},{'name':_0x3c7e77(0x1a6),'seller':0x21ad,'betzord':_0x3c7e77(0x130),'foguetinho':_0x3c7e77(0x21b),'tyltyscore':'','copiloto':'','tyltyscored1':'','copilotod1':''},{'name':_0x3c7e77(0x1f5),'seller':0x4c1,'betzord':_0x3c7e77(0x1c0),'foguetinho':'https://pay.hotmart.com/X70366315R?checkoutMode=10&offDiscount=1217','tyltyscore':'','copiloto':'','tyltyscored1':'','copilotod1':''},{'name':_0x3c7e77(0x1b9),'seller':0x913,'betzord':_0x3c7e77(0x381),'foguetinho':_0x3c7e77(0x20b),'tyltyscore':'','copiloto':'','tyltyscored1':'','copilotod1':''},{'name':_0x3c7e77(0x212),'seller':0x156e,'betzord':_0x3c7e77(0x2a2),'foguetinho':_0x3c7e77(0x2b1),'tyltyscore':'https://pay.hotmart.com/G66240687B?off=dcv97zf1&checkoutMode=10&offDiscount=5486','copiloto':_0x3c7e77(0x22f),'tyltyscored1':_0x3c7e77(0x2a8),'copilotod1':_0x3c7e77(0x28c)}];let productUrl=![];if(products&&products[product]&&products[product][target])productUrl=products[product][target];else products&&products[product]&&products[product][_0x3c7e77(0x11c)]&&(target=_0x3c7e77(0x11c),productUrl=products[product][target]);const trackingQs={'utm_source':_0x3c7e77(0x24e),'utm_medium':_0x3c7e77(0x24e),'utm_campaign':_0x3c7e77(0x24e),'utm_content':_0x3c7e77(0x24e),'utm_seller_id':_0x3c7e77(0x24e),'utm_target':target,'utm_x1':_0x3c7e77(0x24e),'utm_x2':_0x3c7e77(0x24e),'utm_x3':_0x3c7e77(0x24e)};let sellerUrl=![];function _0x1b52(){const _0x22aed0=['EDILSON\x20LIMA','Gabriel\x20Cardozo','https://betzord.com/presell-c/','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=ARTTHURFREITAS','GOLDORAYO','GERSONALBUQUERQUE','https://app.monetizze.com.br/checkout/CCL121520','CAMILAISABELLE','DRFELIPEARAUJO','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=BEICO','EDIQUEIXINHO','KEL','https://pay.hotmart.com/S67803507J?checkoutMode=10&offDiscount=5486','https://app.monetizze.com.br/checkout/CSG122032','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=NIVALDO','DANIELEBEZERRA','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=JEFFBARBOSAOFC','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=EUORLANDINHO','https://pay.hotmart.com/G66240687B?off=bzokiqcx&checkoutMode=10&offDiscount=5486','MMARCELLABRAGANCA','https://pay.hotmart.com/B66515443S?checkoutMode=10&bid=1644450672515&offDiscount=MARTINKLAYVER','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=GOLDORAYO','ALEFTORREZ','utm_source','https://pay.hotmart.com/B66515443S?checkoutMode=10&bid=1644450672515&offDiscount=JULIANAPRISCILAOFC','ANDREDARCK','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=PATRICKJIMENEZ','https://pay.hotmart.com/X70366315R?checkoutMode=10&offDiscount=5486','https://app.monetizze.com.br/checkout/CRQ121513','FELIPEARAUJOLLIMA','ANGELCRHIS','https://app.monetizze.com.br/checkout/CBC123278','betzord','DYNHOALVES','RICARDO\x20MUNIZ','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=LAISOLIVEIRA','ITALOMATEUS','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=DEIVINHOSOUZA','https://app.monetizze.com.br/checkout/CCW121474','https://app.monetizze.com.br/checkout/CKF123296','https://app.monetizze.com.br/checkout/CJQ121519','EUMANELOFICIAL','https://pay.hotmart.com/B66515443S?checkoutMode=10&bid=1647127847392&offDiscount=SAULOOLIVEIRAOFC2','VINICIUSBARROS12','https://app.monetizze.com.br/checkout/CSE121473','TOMER\x20SAVOIA','JEFFBARBOSAOFC','https://app.monetizze.com.br/checkout/CUW121481','JACQUESVANIER','https://app.monetizze.com.br/checkout/CGC121789','EUROBERTALOREN','https://app.monetizze.com.br/checkout/CPE121477','https://pay.hotmart.com/B66515443S?checkoutMode=10&bid=1644450672515&offDiscount=EIPRIH','QUELANCEEXTRA','KELLYARAUJO','https://pay.hotmart.com/F66259086P?checkoutMode=0&bid=1644249664838&offDiscount=EDSONMASCARENHAS','BIANKANICOLI','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=VANESSCARVALHO','EDILSONLIMA','OTIAGOBRANCO','ANDREZA\x20BELCHIOR','KEDMAHHH','DIGAOSHOW','MATHEUS\x20DE\x20MELO\x20SANTOS','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=EDUARDOVELOSOOF','TAYNARACABRAL','https://app.monetizze.com.br/checkout/CNY122031','NOURL','https://app.monetizze.com.br/checkout/CWR122030','GABRIELSOBREIRAA3G','errorMessage','RODRIGO\x20FILIPE\x20MARTINS','CAILA\x20CARIM\x20BELCHIOR','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=DANLELLIS','ARTTHURFREITAS','https://pay.hotmart.com/B66515443S?checkoutMode=10&bid=1644450672515&offDiscount=ALISSONJORDANN','https://app.monetizze.com.br/checkout/CCL121470','https://pay.hotmart.com/F66507737N?checkoutMode=10&bid=1644444571177&offDiscount=JEFFERSONMACHADO','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=MENEZESGI','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=DRFELIPEARAUJO','MENEZESGI','55555','MARCODOSANJOS','WELITON\x20GOMES','bloginformativo','PATRICIA\x20VIANA','https://app.monetizze.com.br/checkout/CRD121858','LEONARDO\x20MENDES\x20DA\x20SILVA','https://pay.hotmart.com/B66515443S?checkoutMode=10&bid=1644450672515&offDiscount=PAULORICARDOOFF','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=MCBMOOO','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=PAULINAATTAIDE','https://app.monetizze.com.br/checkout/CCK122714','https://app.monetizze.com.br/checkout/CKR122652','CAROLINACONDESSA','https://app.monetizze.com.br/checkout/CFQ122381','https://app.monetizze.com.br/checkout/CTL122158','EDSONMASCARENHAS','PRIMOVIRGEM','OGUSTAVOTUBARAO','https://pay.hotmart.com/X70366315R?checkoutMode=10&offDiscount=1235','https://app.monetizze.com.br/checkout/CZP123076','THUANYMA','MARLEI\x20ALVES','CANTORAUGUSTO','https://pay.hotmart.com/F66507737N?checkoutMode=10&bid=1644444571177&offDiscount=BIELCARDOZOO','JOANA\x20DARC','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=TOMERSAVOIA','DJEVERTONMARTINS','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644872020999&offDiscount=LUCASTYLTY','sck','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=MLKJHOOW','JUKANALHA','utm_x2','Djheniffer\x20Oliveira\x20Ferreira','LUCA\x20NETA','https://app.monetizze.com.br/checkout/CXG121979','https://pay.hotmart.com/B66515443S?checkoutMode=10&bid=1644450672515&offDiscount=BIANKANICOLI','ALLAN_DENTINHO','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=NEYLIMA','https://app.monetizze.com.br/checkout/CPL121517','https://pay.hotmart.com/B66515443S?checkoutMode=10&bid=1644450672515&offDiscount=JANAHORRARYA','LAURINHAFEER','LEOPAVELLINI','GABIMARTINS','EUORLANDINHO','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=PRIMOVIRGEM','Daniel\x20H','utm_seller_id','CARLINHOSMAIA','KAYQUESILVER','https://app.monetizze.com.br/checkout/CHN121570','ELIABE','CAROLINAPAIVA','MATEUS\x20FELIPE\x20(LATREL)','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=SOLANGEBEZERRA','MLKJHOOW','ABNERPINHEIRO','https://app.monetizze.com.br/checkout/CEX121479','João\x20Victor','UPGRADEBETZORD','JOAOPEDROLISBOA','RAFFAELASOUZA','JULIANA\x20SEIXAS','https://app.monetizze.com.br/checkout/CVM122331','MARCOS\x20DOS\x20ANJOS','https://app.monetizze.com.br/checkout/CSJ123871','PRAZERGABI','https://app.monetizze.com.br/checkout/CAG122112','https://app.monetizze.com.br/checkout/CBZ121515','KELVINSABINOU','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=DJLARISSACERQUEIRA','HUGO\x20DA\x20SILVA\x20MENEZES','https://app.monetizze.com.br/checkout/CWV122816','DEIVINHOSOUZA','CAILACARIM','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=EULEANDROBARROSM','RICARDOGRAU','MAXSUELZINHO','ROBEERTAV','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=BRUNOBUBUOF','|c-','JUHBRASIL','LENYLSONDANIEL','MIKE\x20DA\x20SILVA\x20BERNARDINO','https://app.monetizze.com.br/checkout/CCH121567','WELLENROCHAOFICIAL','186SHYlfs','EUTHIAGOSILVAAA','LAYLA\x20DUTRA','MENGAO\x20O\x20MELHOR','MELQUIAZEVEDO','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=OPAIDOORGANICO','RAIANNEMARIA','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=MELQUIAZEVEDO','fromEntries','https://app.monetizze.com.br/checkout/CHK123207','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=JENNIFERLETYCIA','BRUNALADY','MARIAEUGENIAFIT','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=SUZANNAFREITAS','LEVELUP007\x20(Samuel\x20dos\x20Santos\x20Lima)','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=AMANDAVAS','https://pay.hotmart.com/F66507737N?checkoutMode=10&bid=1644444571177&offDiscount=GRACIELLYWILIANE','LARISSAFOXOFIC','https://app.monetizze.com.br/checkout/CST123002','https://pay.hotmart.com/N66517827C?checkoutMode=10&bid=1644521740977&offDiscount=CREMOSINHO','RAFAMENY\x20(RAFAEL\x20MENDES)','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=KELVINSABINOU','PAPARAZZO\x20RUBRO\x20NEGRO','https://app.monetizze.com.br/checkout/CJJ121816','Daniel\x20Henriique\x20de\x20Souza\x20do\x20Santos','https://pay.hotmart.com/B66515443S?checkoutMode=10&bid=1644450672515&offDiscount=WELLENROCHAOFICIAL','HUGOMENEZEZOF','LAUANETAUANE','FELIPEMAIA','https://app.monetizze.com.br/checkout/CXE121762','DANIELMIRANDAMOTORS','LUIZ\x20GUSTAVO\x20FORNELI\x20(JADE\x20CASAES)','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=EURADIJAPEREIRA','6684tcHXHk','20IqJrFd','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=JESPOLIANO','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=KENNEDYMENDES','BEICO','ALLEXANDERLOPES','JULIANAPRISCILAOFC','https://app.monetizze.com.br/checkout/CMH122123','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=ALLEXANDERLOPES','|x3-','CARLÃO\x20SOLTO','RHAYFITOFICIAL','PEDROMARINHONETO','GABRIEL\x20\x20VICTHOR\x20DE\x20MOURA','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=PEDROMARINHONETO','102670qMLnKt','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=KELFERRETI','SIDNEY\x20PEDROSO','DJHENIFFER','MARCELOMORENO','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=KELLYARAUJO','https://app.monetizze.com.br/checkout/CQD121944','LMEDEIROS82','CARLA\x20MARINA\x20REIS','https://pay.hotmart.com/F66507737N?checkoutMode=10&bid=1644444571177&offDiscount=TAYNARACABRAL','https://app.monetizze.com.br/checkout/CWY123047','PEDRO\x20HENRIQUE','location','EUTULION','https://app.monetizze.com.br/checkout/CRE121754','https://betzord.com/presell-d/','LUCASTYLTY','LUISFELIPE','DANGSOFICIAL','INSTAGRAMDIRECT','https://app.monetizze.com.br/checkout/CLL121463','https://pay.hotmart.com/S67803507J?checkoutMode=10&offDiscount=2323','PAHTTY','LARIOLIVEIRAAOFICIAL','MATHEUSMELOORIGINAL','loading','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=LEVELUP007','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=AMANDASSOUZAOFICIAL','GRACIELLYWILIANE','https://app.monetizze.com.br/checkout/CJW121755','CARDOTEOFICIAL','https://app.monetizze.com.br/checkout/CBE123642','find','GALVAOSOMOFICIAL','https://app.monetizze.com.br/checkout/CJR123857','https://pay.hotmart.com/F66507737N?checkoutMode=10&bid=1644444571177&offDiscount=LUCASVRAU','display','https://pay.hotmart.com/S67803507J?checkoutMode=10&offDiscount=SPLITPAGE','MCBOMBOMOFICIAL','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=FELIPEMAIA','https://pay.hotmart.com/X70366315R?checkoutMode=10&offDiscount=CARLINHOSMAIA','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=DANGSOFICIAL','MURIELWYLKER','JULIA\x20LETICIA\x20MARINHO','https://app.monetizze.com.br/checkout/CWM121753','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=JONATHANRODRIGUES','https://app.monetizze.com.br/checkout/CKD121489','LEYLAARRAIS','DANIEL\x20MIRANDA','DAVIMATEUSOFI','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=DANIELZINHOGRAU','JANAHORRARYA','https://app.monetizze.com.br/checkout/CTF123543','DANIELZINHOGRAU','465459FKqUfz','LAUAMERICO','LUCAS\x20FELIPE\x20GOMES\x20DE\x20SOUZA','LUIZMIRANDADILHO','SIDNEYPEDROSO','ROGINHODUOURO','https://app.monetizze.com.br/checkout/CUL122530','BRUNOVINICIUSCONCEITO','https://app.monetizze.com.br/checkout/CEC121935','https://app.monetizze.com.br/checkout/CHK122122','MCBMOOO','DJLARISSACERQUEIRA','https://app.monetizze.com.br/checkout/CVW121931','utm_target','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=AYARLASOUZA','NEYLIMA','LUCAS\x20FERNANDO','https://app.monetizze.com.br/checkout/CTX121786','1pNEOrO','https://app.monetizze.com.br/checkout/CSL121461','FUICLEAR','toLowerCase','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=MENGAOOMELHOR','WAGUINHO','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=GABILY','https://app.monetizze.com.br/checkout/CSG122379','EUDISBOCUDA','checkout','https://pay.hotmart.com/X70366315R?checkoutMode=10&offDiscount=1605','https://app.monetizze.com.br/checkout/CAZ123128','https://foguetinho.com/presell-d/','NOPRD','NENEMDAGATAPRETA','MARINA\x20FERRARI','WESSKLEY','https://pay.hotmart.com/F66507737N?checkoutMode=10&bid=1644444571177&offDiscount=CAROLINAPAIVA','https://pay.hotmart.com/F66507737N?checkoutMode=10&bid=1644444571177&offDiscount=ANDREDARCK','EVERTON\x20ISACK\x20TEODORO\x20TEIXEIRA','https://app.monetizze.com.br/checkout/CLB121970','https://app.monetizze.com.br/checkout/CRL122111','https://app.monetizze.com.br/checkout/CHS123010','CREMOSINHO','RAFAMENY','6677stRotK','LARISSA\x20OLIVEIRA','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=PAHTTY','https://app.monetizze.com.br/checkout/CQS123365','https://pay.hotmart.com/S67803507J?checkoutMode=10&offDiscount=8621','LUIZ\x20GUSTAVO\x20FORNELI\x20(BIANCA\x20CASSINO)','BRENO\x20LEONARDO\x20LARGARES','VANESSCARVALHO','MARTINKLAYVER','321597JxsjCV','trim','MIKEBERNARDINO','OFERNANDOSARDINHA','https://betzord.com/presell/','EDINHOMAMAE','https://app.monetizze.com.br/checkout/CSX123773','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=LUISFELIPE','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=FALETAA','CICEROJOSE','SUZANNA\x20FREITAS','https://pay.hotmart.com/F66507737N?checkoutMode=10&bid=1644444571177&offDiscount=OFICIALTHIAGOBARROS','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644872020999&offDiscount=INSTAGRAMDIRECT','ALESSONLIMAA','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=ANDREDARCK','https://app.monetizze.com.br/checkout/CTL121857','|x1-','https://app.monetizze.com.br/checkout/CAW121491','EDUARDO\x20BAPTISTA','https://betzord.com/pv-face-d/','FABIOBRAZ','https://pay.hotmart.com/F66507737N?checkoutMode=10&bid=1644444571177&offDiscount=DANIELZINHOGRAU','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=GUILHERMEPINHEIRO','utm_content','ONILSONNETO','BRUNA\x20LADY\x20PRATA\x20NETO','CARTORROBINHO','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=LIGIALAIANY','GABILY','https://app.monetizze.com.br/checkout/CSU123077','MATHEUSSAMPAIO','CACESA','DANLELLIS','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=MARIACLARAAOFICIAL','TALITAANDRADE','VIIHTUBE','https://app.monetizze.com.br/checkout/CPK122519','https://app.monetizze.com.br/checkout/CEX121518','41935NJbbjj','JONATASFERRARI','block','KENNEDYMENDES','BIELCARDOZ0','Luiz\x20Henrique','|x2-','https://pay.hotmart.com/F66507737N?checkoutMode=10&bid=1644444571177&offDiscount=MALUZINHAALB','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=QUELANCEEXTRA','BRUNOBUBUOF','CRISMONTEIRO','Shelda\x20Paulino','SUPORTE','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=MARTINKLAYVER','LEO\x20MOURA','https://pay.hotmart.com/F66507737N?checkoutMode=10&bid=1644444571177&offDiscount=LARASILVA','GUILHERMEPINHEIRO','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=VAVACUNHA','RAFAEL\x20GERMANO\x20CEZARIO','LUMENA\x20ALELUIA','THAYRODRIGUES','WILLAMS','https://pay.hotmart.com/X70366315R?checkoutMode=10&offDiscount=1994','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=DYNHOALVES','AMANDASSOUZAOFICIAL','AMANDASOUZA','LUIZ\x20HENRIQUE\x20MIRANDA\x20FILHO','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=LEOMARQUESS','CAROLINNEOFICIAL','https://app.monetizze.com.br/checkout/CLP123397','https://pay.hotmart.com/R66588137A?checkoutMode=10','customCheckout','https://app.monetizze.com.br/checkout/CEU122029','JENNIFERLETYCIA','CARLABORA','seller','PAPARAZZORUBRONEGRO','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=JAINECASSU','https://app.monetizze.com.br/checkout/CYD121811','https://app.monetizze.com.br/checkout/CPY122248','EIPRIH','LETICIASILVA','KEL\x20FERRETI','VALDONIER','https://pay.hotmart.com/B66515443S?checkoutMode=10&bid=1644450672515&offDiscount=EUDISBOCUDA','ABNER\x20PINHEIRO','MENINODOIMBUOFICIAL','KEDMA\x20FONSECA\x20DE\x20OLIVEIRA','utm_x1','searchParams','MATHEUS\x20SAMPAIO','BRUNODIFERENTE','BOTOF','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=MATHEUSCLAUS','EDUJRSANTOS','NETO\x20GUEDES','FAZERUPGRADE','https://app.monetizze.com.br/checkout/CYL121933','NETOGUEDES','https://betzord.com/pv-face-c/','OTARIANO','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=ABNERPINHEIRO','BARONE','MARIACLARAAOFICIAL','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=PAOLLAATAIDE','TIAGO\x20BRANCO\x20DE\x20OLIVEIRA','LUIZMIRANDAFILHO','AMANDAVAS','https://app.monetizze.com.br/checkout/CUY123049','JHON','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=LAURINHAFEER','search','LOMA','https://app.monetizze.com.br/checkout/CZU121798','https://pay.hotmart.com/F66507737N?checkoutMode=10&bid=1644444571177&offDiscount=ISAUOFICIAL','Bruno\x20Sonecka','FALETAA','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=CLEVERNEUMANN','RAISSAOLIVEIRA','CAROLINA\x20CONDESSA','DRADEOLANEBEZERRA','MCGUI','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=ALESSONLIMAA','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=BARONE','LIGIALAIANY','https://pay.hotmart.com/F66507737N?checkoutMode=10&bid=1644444571177&offDiscount=LETICIASILVA','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=PRISCILAGAMA','VERINHAJR','LAYLADUTRA','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=MISAEL','EDUARDOVELOSOOF','utm_medium','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=EDIQUEIXINHO','NIVALDO','Evandro','https://betzord.com/pv-face-b/','EURADIJAPEREIRA','LAURYEN\x20CAMARGO\x20AMÉRICO','CLEVERNEUMANN','https://pay.hotmart.com/F66507737N?checkoutMode=10&bid=1644444571177&offDiscount=RAFAMENY','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=JACQUESVANIER','https://pay.hotmart.com/S67803507J?checkoutMode=10&offDiscount=1217','|p-','https://app.monetizze.com.br/checkout/CQH122589','GIORGIO\x20BARONE','JOÃO\x20PAULO\x20PEREIRA\x20MOTA','https://app.monetizze.com.br/checkout/CZN123083','https://pay.hotmart.com/next/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=LUCANETA10','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=MARIAEUGENIAFIT','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=MOISAJR','https://app.monetizze.com.br/checkout/CPB121469','https://pay.hotmart.com/B66515443S?checkoutMode=10&bid=1644450672515&offDiscount=OGUSTAVOTUBARAO','TEAGUBRUNO','LAISOLIVEIRA','SUZANNAFREITAS','https://pay.hotmart.com/next/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=BOBESTRELA','https://pay.hotmart.com/F66507737N?checkoutMode=10&bid=1644444571177&offDiscount=AMANDAFERREIRA','JEFFERSON\x20SIMÕES\x20BARBOSA','https://app.monetizze.com.br/checkout/CWT122340','https://app.monetizze.com.br/checkout/CDU123560','PAOLLAATAIDE','https://app.monetizze.com.br/checkout/CBU121525','https://foguetinho.com/presell-c/','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=EUTHIAGOSILVAAA','https://app.monetizze.com.br/checkout/CJZ121936','https://app.monetizze.com.br/checkout/CRF121809','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=DADAFAVATTO','https://pay.hotmart.com/F66507737N?checkoutMode=10&bid=1644444571177&offDiscount=LARISSAFOXOFIC','https://app.monetizze.com.br/checkout/CZX121937','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644872020999&offDiscount=FAZERUPGRADE','https://foguetinho.com/presell-b/','https://app.monetizze.com.br/checkout/CPD123366','LUCANETA10','MISAEL','https://app.monetizze.com.br/checkout/CKB122160','ISAUOFICIAL','WILLAMS\x20DOS\x20SANTOS','AlissonJORDANN','GIGANTEOFICIAL1','LEANDRO\x20MEDEIROS','MALUZINHAALB','PAULORICARDOOFF','meuchamyto','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=BIANCABEZERRA','SHELDAPAULINOM','LEOMARQUESS','SAHAINFLUENCER','https://app.monetizze.com.br/checkout/CZC123011','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=MAXSUELZINHO','https://app.monetizze.com.br/checkout/CEF121859','TAYANE\x20BARROS','RAIANNE\x20MARIA','https://app.monetizze.com.br/checkout/CUV122520','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=JUKANALHA','Thalia\x20Cristina','BRUNO\x20VINICIUS\x20MONTEIRO\x20DOS\x20SANTOS','LUANEOFICIAL','LARASILVA','LIANDRA\x20BRUDER','MARCELLA\x20BRAGANCA','MOISAJR','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=CARDOTEOFICIAL','BIELCARDOZOO','https://app.monetizze.com.br/checkout/CFE121471','https://app.monetizze.com.br/checkout/CJW121496','ALEXANDER\x20LOPES','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=TEAGUBRUNO','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=THAYRODRIGUES','WAGUINHO\x20(Wagner\x20Victor\x20Dos\x20Santos\x20Silva)','LUCASVRAU','https://app.monetizze.com.br/checkout/CQE122715','RUAN\x20AUGUSTO\x20NASCIMENTO\x20DE\x20MELO','href','JAINECASSU','EMANUEL\x20DE\x20SOUZA','https://app.monetizze.com.br/checkout/CRF121452','https://pay.hotmart.com/X70366315R?checkoutMode=10&offDiscount=2323','https://app.monetizze.com.br/checkout/CSY121963','CAROLRACER','https://pay.hotmart.com/F66507737N?checkoutMode=10&bid=1644444571177&offDiscount=BRUNODIFERENTE','https://pay.hotmart.com/S67803507J?checkoutMode=10&offDiscount=1994','184JQdwmX','https://pay.hotmart.com/B66515443S?checkoutMode=10&bid=1644450672515&offDiscount=LEYLAARRAIS','Willian\x20Rocha','https://app.monetizze.com.br/checkout/CJF121849','MCBRUNINHODAPRAIA','MATHEUS\x20BECKER\x20SCHEYER','https://app.monetizze.com.br/checkout/CPZ122157','MATHEUSYURLEY','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=ANGELCRHIS','TULIO','|u-','https://pay.hotmart.com/X70366315R?checkoutMode=10&offDiscount=8621','DRADAYANNEBEZERRA','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=ITALOMATEUS','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=LAUANETAUANE','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=WAGUINHO','AYARLASOUZA','https://app.monetizze.com.br/checkout/CSJ122799','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=DEBORAPAIIXAO','error','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=MENINODOIMBUOFICIAL','https://app.monetizze.com.br/checkout/CDN123127','utm_x3','PAULINHOPR9','OPAIDOORGANICO','get','HEITORMARTINIZI','JONATAS\x20DOS\x20SANTOS\x20COIMBRA','ANTONIO\x20CARLOS','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=DRADEOLANEBEZERRA','JULIASOUZAJ','https://app.monetizze.com.br/checkout/CZC121957','VALDONIER\x20BRYAN','BIANCABEZERRA','CAROLINNE\x20OLIVEIRA','escolaeducacional','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=FABIOBRAZ','KSSIANU','https://app.monetizze.com.br/checkout/CNE121466','SOLANGEBEZERRA','EDUARDO\x20LUIZ\x20SANTOS\x20JUNIOR','https://app.monetizze.com.br/checkout/CVF121497','LARISSASALVADOROFC','PRISCILAGAMA','getElementById','JOAONUGASS','TAYANEBARROOS','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=JULIASOUZAJ','554676WEURBv','https://app.monetizze.com.br/checkout/CBW123562','https://app.monetizze.com.br/checkout/CQJ121938','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1645464752395&offDiscount=MATHUESMELOORIGINAL','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=MATHEUSSAMPAIO','PAULO\x20HENRIQUE','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=CAMILAISABELLE','https://app.monetizze.com.br/checkout/CYQ121483','https://app.monetizze.com.br/checkout/CYN121810','HUGONOVAESF','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=LARISALVADOR','IGOR\x20DA\x20SILVA\x20TORRES','PATRICKJIMENEZ','https://app.monetizze.com.br/checkout/CSQ123353','SPLITZ','https://app.monetizze.com.br/checkout/CMK121490','LARISALVADOR','none','JONATHANRODRIGUES','PEDROHENRIQUE','JHONATAS\x20DE\x20CASTRO\x20CERVAN','https://app.monetizze.com.br/checkout/CNF122718','DANYRORIZZRESERVA','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=OTARIANO','https://app.monetizze.com.br/checkout/CFX121480','ALISSONJORDANN','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=ONILSONNETO','BRUDERR','https://app.monetizze.com.br/checkout/CVR123540','https://app.monetizze.com.br/checkout/CNM121488','https://app.monetizze.com.br/checkout/CMR123352','UELLINGTON\x20BOTOF','ALEF\x20TORREZ','https://app.monetizze.com.br/checkout/CVL122102','TYLTY','GUIGUIMAKEUP','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=VALDONIER','MARCELO\x20MORENO','SAULO\x20OLIVEIRA','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1645046508171&offDiscount=PAPARAZZORUBRONEGRO','EULEANDROBARROSM','https://app.monetizze.com.br/checkout/CPE123768','FERRTULIO','RIFASDOGURIZINHO','https://app.monetizze.com.br/checkout/CUN121787','RONINHO','LUIZ\x20GUSTAVO\x20FORNELI\x20(GUSTAVO\x20GIGANTE)','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644872020999&offDiscount=TYLTY','https://pay.hotmart.com/next/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=THUANYMA','ROGER\x20RODRIGUES','LUCAS\x20MATOS\x20-\x20PRIMOVIRGEM','MATHUESMELOORIGINAL','PASTRANAVLOGS','https://app.monetizze.com.br/checkout/CLZ123725','THUANY\x20LIMA','https://app.monetizze.com.br/checkout/CJW123367','53242CYRDri','OFICIALTHIAGOBARROS','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=LUMENAALELUIA','https://app.monetizze.com.br/checkout/CWB123542','PEDRO\x20MARINHO','https://app.monetizze.com.br/checkout/CRA123539','BOB\x20ESTRELA','https://pay.hotmart.com/F66507737N?checkoutMode=10&bid=1644444571177&offDiscount=RONINHO','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=GERSONALBUQUERQUE','GABRIELLMOOURA','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=ALEFTORREZ','https://app.monetizze.com.br/checkout/CFD121516','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=EDINHOMAMAE','ROBSON\x20RICARDO\x20MATIAS','https://pay.hotmart.com/next/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=LEOMOURA23','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=WESSKLEY','DEBORAPAIIXAO','https://app.monetizze.com.br/checkout/CXG121788','product','https://app.monetizze.com.br/checkout/CBJ121514','https://app.monetizze.com.br/checkout/CRR121958','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=OFERNANDOSARDINHA','https://app.monetizze.com.br/checkout/CXN121478','https://app.monetizze.com.br/checkout/KWX233173','https://pay.hotmart.com/F66507737N?checkoutMode=10&bid=1644444571177&offDiscount=LARISSASALVADOROFC','https://foguetinho.com/presell/','https://app.monetizze.com.br/checkout/CYD121468','https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=PAULINHOPR9','JESPOLIANO','CARLAOSOLTO031'];_0x1b52=function(){return _0x22aed0;};return _0x1b52();}seller&&(sellerUrl=sellers[_0x3c7e77(0x38c)](_0x35aaa4=>_0x35aaa4[_0x3c7e77(0x17e)]['toString']()['toLowerCase']()[_0x3c7e77(0x136)]()===seller),trackingQs['utm_seller_id']=seller);sellerUrl&&sellerUrl&&sellerUrl[product]?sellerUrl=sellerUrl[product]:sellerUrl=![];function _0x3b40(_0x58ec2e,_0x59de7c){const _0x1b521f=_0x1b52();return _0x3b40=function(_0x3b4063,_0x520920){_0x3b4063=_0x3b4063-0x117;let _0x1f34c9=_0x1b521f[_0x3b4063];return _0x1f34c9;},_0x3b40(_0x58ec2e,_0x59de7c);}if(sellerUrl&&target===_0x3c7e77(0x11c))url=new URL(sellerUrl);else productUrl?url=new URL(productUrl):showError(_0x3c7e77(0x2d9));if(url){if(sellerUrl)url[_0x3c7e77(0x18c)]['set'](_0x3c7e77(0x17a),sellerUrl);else productUrl&&url[_0x3c7e77(0x18c)]['set'](_0x3c7e77(0x17a),products[product][_0x3c7e77(0x11c)]);const mainQs=Object[_0x3c7e77(0x344)](url[_0x3c7e77(0x18c)]),hostQs=Object[_0x3c7e77(0x344)](hostUrl[_0x3c7e77(0x18c)]),finalQs={...trackingQs,...mainQs,...hostQs},sckString='s-'+finalQs[_0x3c7e77(0x2ad)]+'|m-'+finalQs[_0x3c7e77(0x1b6)]+_0x3c7e77(0x1c1)+finalQs['utm_campaign']+_0x3c7e77(0x336)+finalQs[_0x3c7e77(0x14c)]+_0x3c7e77(0x21a)+finalQs[_0x3c7e77(0x315)]+'|t-'+finalQs[_0x3c7e77(0x3af)]+_0x3c7e77(0x145)+finalQs[_0x3c7e77(0x18b)]+_0x3c7e77(0x161)+finalQs[_0x3c7e77(0x306)]+_0x3c7e77(0x366)+finalQs[_0x3c7e77(0x226)];!finalQs[_0x3c7e77(0x303)]&&(finalQs[_0x3c7e77(0x303)]=sckString);url[_0x3c7e77(0x1a2)]=new URLSearchParams(finalQs);let customCheckout=url[_0x3c7e77(0x18c)][_0x3c7e77(0x229)](_0x3c7e77(0x17a));if(customCheckout){customCheckout=new URL(customCheckout);let customCheckoutQs=Object[_0x3c7e77(0x344)](customCheckout[_0x3c7e77(0x18c)]);customCheckoutQs={...customCheckoutQs,...finalQs},customCheckout['search']=new URLSearchParams(customCheckoutQs),url[_0x3c7e77(0x18c)]['set']('customCheckout',customCheckout[_0x3c7e77(0x207)]);}window['location'][_0x3c7e77(0x207)]=url[_0x3c7e77(0x207)];}
+/* eslint-disable max-len */
+/*
+TOOL: SPLIT -Z-
+DESCRIPTION: MAGIC SPLIT
+WEBSITE: https://compayz.com/
+MISSION: Take Over the World!
+
+.
+.
+.
+
+─[CREATED BY]───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+─██████████████──██████████████──██████──────────██████──██████████████──██████████████──████████──████████──────────────────██████████████████─────────────────
+─██░░░░░░░░░░██──██░░░░░░░░░░██──██░░██████████████░░██──██░░░░░░░░░░██──██░░░░░░░░░░██──██░░░░██──██░░░░██──────────────────██░░░░░░░░░░░░░░██─────────────────
+─██░░██████████──██░░██████░░██──██░░░░░░░░░░░░░░░░░░██──██░░██████░░██──██░░██████░░██──████░░██──██░░████──────────────────████████████░░░░██─────────────────
+─██░░██──────────██░░██──██░░██──██░░██████░░██████░░██──██░░██──██░░██──██░░██──██░░██────██░░░░██░░░░██────────────────────────────████░░████─────────────────
+─██░░██──────────██░░██──██░░██──██░░██──██░░██──██░░██──██░░██████░░██──██░░██████░░██────████░░░░░░████────────────██████████████████░░██████████████████─────
+─██░░██──────────██░░██──██░░██──██░░██──██░░██──██░░██──██░░░░░░░░░░██──██░░░░░░░░░░██──────████░░████────────────██████████████████░░██████████████████───────
+─██░░██──────────██░░██──██░░██──██░░██──██████──██░░██──██░░██████████──██░░██████░░██────────██░░██────────────██████████████████░░██████████████████─────────
+─██░░██──────────██░░██──██░░██──██░░██──────────██░░██──██░░██──────────██░░██──██░░██────────██░░██────────────────────────████░░████─────────────────────────
+─██░░██████████──██░░██████░░██──██░░██──────────██░░██──██░░██──────────██░░██──██░░██────────██░░██────────────────────────██░░░░████████████─────────────────
+─██░░░░░░░░░░██──██░░░░░░░░░░██──██░░██──────────██░░██──██░░██──────────██░░██──██░░██────────██░░██────────────────────────██░░░░░░░░░░░░░░██─────────────────
+─██████████████──██████████████──██████──────────██████──██████──────────██████──██████────────██████────────────────────────██████████████████─────────────────
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+*/
+
+// Funcão de erro página de loading
+function showError(error) {
+  document.getElementById('loading').style.display = 'none';
+  document.getElementById('error').style.display = 'block';
+  document.getElementById('errorMessage').innerHTML = error;
+}
+
+// Qs utilizadas na requisição
+let target = new URLSearchParams(window.location.search).get('target'); // REDIRECT REQUIRED
+let product = new URLSearchParams(window.location.search).get('product'); // PRODUCT REQUIRED
+let seller = new URLSearchParams(window.location.search).get('seller'); // SELLER
+
+// Tratamento das strings (LOWER CASE)
+if (target) { target = target.toLowerCase().trim(); }
+if (product) { product = product.toLowerCase().trim(); }
+if (seller) { seller = seller.toLowerCase().trim(); }
+
+// Objeto completo da URL de requisição
+const hostUrl = new URL(window.location);
+
+let url = false;
+
+// Erro - Produto não definido
+if (!product) { showError('NOPRD'); }
+
+// TEMPORARIO REMOVER
+// if (product === 'betzordtyltyscore') { product = 'betzord'; }
+if (product === 'bloginformativo') { product = 'betzord'; }
+if (product === '55555') { product = 'betzord'; }
+if (product === 'escolaeducacional') { product = 'betzord'; }
+if (product === 'meuchamyto') { product = 'betzord'; }
+
+// Variaçoes de URL dos produtos
+const products = {
+  betzord: {
+    salespage: 'https://betzord.com/presell/',
+    salespageb: 'https://betzord.com/presell-b/',
+    salespagec: 'https://betzord.com/presell-c/',
+    salespaged: 'https://betzord.com/presell-d/',
+    faceads: 'https://betzord.com/pv-face/',
+    faceadsb: 'https://betzord.com/pv-face-b/',
+    faceadsc: 'https://betzord.com/pv-face-c/',
+    faceadsd: 'https://betzord.com/pv-face-d/',
+    checkout: 'https://pay.hotmart.com/S67803507J?checkoutMode=10&offDiscount=SPLITPAGE',
+  },
+  betzordtyltyscore: {
+    salespage: 'https://betzord.com/presell/',
+    faceads: 'https://betzord.com/pv-face/',
+    checkout: 'https://pay.hotmart.com/O69794051G?checkoutMode=10&off=14rwbngv',
+  },
+  tyltyscore: {
+    salespage: 'https://pay.hotmart.com/R66588137A?checkoutMode=10',
+    faceads: 'https://pay.hotmart.com/R66588137A?checkoutMode=10',
+    checkout: 'https://pay.hotmart.com/R66588137A?checkoutMode=10',
+  },
+  tyltyscored1: {
+    salespage: 'https://pay.hotmart.com/R66588137A?checkoutMode=10',
+    faceads: 'https://pay.hotmart.com/R66588137A?checkoutMode=10',
+    checkout: 'https://pay.hotmart.com/R66588137A?checkoutMode=10',
+  },
+  foguetinho: {
+    salespage: 'https://foguetinho.com/presell/',
+    salespageb: 'https://foguetinho.com/presell-b/',
+    salespagec: 'https://foguetinho.com/presell-c/',
+    salespaged: 'https://foguetinho.com/presell-d/',
+    faceads: 'https://foguetinho.com/presell/',
+    checkout: 'https://app.monetizze.com.br/checkout/CRF121452',
+  },
+  copiloto: {
+    salespage: 'https://app.monetizze.com.br/checkout/KWX233173',
+    faceads: 'https://app.monetizze.com.br/checkout/KWX233173',
+    checkout: 'https://app.monetizze.com.br/checkout/KWX233173',
+  },
+  copilotod1: {
+    salespage: 'https://app.monetizze.com.br/checkout/KWX233173',
+    faceads: 'https://app.monetizze.com.br/checkout/KWX233173',
+    checkout: 'https://app.monetizze.com.br/checkout/KWX233173',
+  },
+};
+
+// Vendedores para o customCheckout
+const sellers = [
+  {
+    name: 'ABNER PINHEIRO',
+    seller: 'ABNERPINHEIRO',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=ABNERPINHEIRO',
+    foguetinho: '',
+  },
+  {
+    name: 'ALEF TORREZ',
+    seller: 'ALEFTORREZ',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=ALEFTORREZ',
+    foguetinho: '',
+  },
+  {
+    name: 'ALESSONLIMAA',
+    seller: 'ALESSONLIMAA',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=ALESSONLIMAA',
+    foguetinho: '',
+  },
+  {
+    name: 'ALISSONJORDANN',
+    seller: 'ALISSONJORDANN',
+    betzord: 'https://pay.hotmart.com/B66515443S?checkoutMode=10&bid=1644450672515&offDiscount=ALISSONJORDANN',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CSL121461',
+  },
+  {
+    name: 'ALLEXANDERLOPES',
+    seller: 'ALLEXANDERLOPES',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=ALLEXANDERLOPES',
+    foguetinho: '',
+  },
+  {
+    name: 'AMANDAFERREIRA',
+    seller: 'AMANDAFERREIRA',
+    betzord: 'https://pay.hotmart.com/F66507737N?checkoutMode=10&bid=1644444571177&offDiscount=AMANDAFERREIRA',
+    foguetinho: '',
+  },
+  {
+    name: 'AMANDASSOUZAOFICIAL',
+    seller: 'AMANDASSOUZAOFICIAL',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=AMANDASSOUZAOFICIAL',
+    foguetinho: '',
+  },
+  {
+    name: 'AMANDAVAS',
+    seller: 'AMANDAVAS',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=AMANDAVAS',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CGN121568',
+  },
+  {
+    name: 'ANDREDARCK',
+    seller: 'ANDREDARCK',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=ANDREDARCK',
+    foguetinho: '',
+  },
+  {
+    name: 'ANDREDARCK',
+    seller: 'ANDREDARCK',
+    betzord: 'https://pay.hotmart.com/F66507737N?checkoutMode=10&bid=1644444571177&offDiscount=ANDREDARCK',
+    foguetinho: '',
+  },
+  {
+    name: 'ANGELCRHIS',
+    seller: 'ANGELCRHIS',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=ANGELCRHIS',
+    foguetinho: '',
+  },
+  {
+    name: 'ARTTHURFREITAS',
+    seller: 'ARTTHURFREITAS',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=ARTTHURFREITAS',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CMD121572',
+  },
+  {
+    name: 'AYARLASOUZA',
+    seller: 'AYARLASOUZA',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=AYARLASOUZA',
+    foguetinho: '',
+  },
+  {
+    name: 'BEICO',
+    seller: 'BEICO',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=BEICO',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CRQ121513',
+  },
+  {
+    name: 'BIANCABEZERRA',
+    seller: 'BIANCABEZERRA',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=BIANCABEZERRA',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CTM121464',
+  },
+  {
+    name: 'BIANKANICOLI',
+    seller: 'BIANKANICOLI',
+    betzord: 'https://pay.hotmart.com/B66515443S?checkoutMode=10&bid=1644450672515&offDiscount=BIANKANICOLI',
+    foguetinho: '',
+  },
+  {
+    name: 'BIELCARDOZOO',
+    seller: 'BIELCARDOZOO',
+    betzord: 'https://pay.hotmart.com/F66507737N?checkoutMode=10&bid=1644444571177&offDiscount=BIELCARDOZOO',
+    foguetinho: '',
+  },
+  {
+    name: 'BRUNOBUBUOF',
+    seller: 'BRUNOBUBUOF',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=BRUNOBUBUOF',
+    foguetinho: '',
+  },
+  {
+    name: 'BRUNODIFERENTE',
+    seller: 'BRUNODIFERENTE',
+    betzord: 'https://pay.hotmart.com/F66507737N?checkoutMode=10&bid=1644444571177&offDiscount=BRUNODIFERENTE',
+    foguetinho: '',
+  },
+  {
+    name: 'BRUNOVINICIUSCONCEITO',
+    seller: 'BRUNOVINICIUSCONCEITO',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=BRUNOVINICIUSCONCEITO',
+    foguetinho: '',
+  },
+  {
+    name: 'CACESA',
+    seller: 'CACESA',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=CACESA',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CYD121468',
+  },
+  {
+    name: 'CAMILAISABELLE',
+    seller: 'CAMILAISABELLE',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=CAMILAISABELLE',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CAW121491',
+  },
+  {
+    name: 'CARDOTEOFICIAL',
+    seller: 'CARDOTEOFICIAL',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=CARDOTEOFICIAL',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CEX121518',
+  },
+  {
+    name: 'CAROLINAPAIVA',
+    seller: 'CAROLINAPAIVA',
+    betzord: 'https://pay.hotmart.com/F66507737N?checkoutMode=10&bid=1644444571177&offDiscount=CAROLINAPAIVA',
+    foguetinho: '',
+  },
+  {
+    name: 'CAROLRACER',
+    seller: 'CAROLRACER',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=CAROLRACER',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CPB121469',
+  },
+  {
+    name: 'CICEROJOSE',
+    seller: 'CICEROJOSE',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=CICEROJOSE',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CCL121470',
+  },
+  {
+    name: 'CREMOSINHO',
+    seller: 'CREMOSINHO',
+    betzord: 'https://pay.hotmart.com/N66517827C?checkoutMode=10&bid=1644521740977&offDiscount=CREMOSINHO',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CSG122032',
+  },
+  {
+    name: 'CRISMONTEIRO',
+    seller: 'CRISMONTEIRO',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=CRISMONTEIRO',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CFE121471',
+  },
+  {
+    name: 'DADAFAVATTO',
+    seller: 'DADAFAVATTO',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=DADAFAVATTO',
+    foguetinho: '',
+  },
+  {
+    name: 'DANGSOFICIAL',
+    seller: 'DANGSOFICIAL',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=DANGSOFICIAL',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CXE121762',
+  },
+  {
+    name: 'DANIELEBEZERRA',
+    seller: 'DANIELEBEZERRA',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=DANIELEBEZERRA',
+    foguetinho: '',
+  },
+  {
+    name: 'DANIELZINHOGRAU',
+    seller: 'DANIELZINHOGRAU',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=DANIELZINHOGRAU',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CJF121849',
+  },
+  {
+    name: 'DANIELZINHOGRAU',
+    seller: 'DANIELZINHOGRAU',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=DANIELZINHOGRAU',
+    foguetinho: '',
+  },
+  {
+    name: 'DANIELZINHOGRAU',
+    seller: 'DANIELZINHOGRAU',
+    betzord: 'https://pay.hotmart.com/F66507737N?checkoutMode=10&bid=1644444571177&offDiscount=DANIELZINHOGRAU',
+    foguetinho: '',
+  },
+  {
+    name: 'DANLELLIS',
+    seller: 'DANLELLIS',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=DANLELLIS',
+    foguetinho: '',
+  },
+  {
+    name: 'DAVIMATEUSOFI',
+    seller: 'DAVIMATEUSOFI',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=DAVIMATEUSOFI',
+    foguetinho: '',
+  },
+  {
+    name: 'DEBORAPAIIXAO',
+    seller: 'DEBORAPAIIXAO',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=DEBORAPAIIXAO',
+    foguetinho: '',
+  },
+  {
+    name: 'DEIVINHOSOUZA',
+    seller: 'DEIVINHOSOUZA',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=DEIVINHOSOUZA',
+    foguetinho: '',
+  },
+  {
+    name: 'DJLARISSACERQUEIRA',
+    seller: 'DJLARISSACERQUEIRA',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=DJLARISSACERQUEIRA',
+    foguetinho: '',
+  },
+  {
+    name: 'DRADAYANNEBEZERRA',
+    seller: 'DRADAYANNEBEZERRA',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=DRADAYANNEBEZERRA',
+    foguetinho: '',
+  },
+  {
+    name: 'DRADEOLANEBEZERRA',
+    seller: 'DRADEOLANEBEZERRA',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=DRADEOLANEBEZERRA',
+    foguetinho: '',
+  },
+  {
+    name: 'DRFELIPEARAUJO',
+    seller: 'DRFELIPEARAUJO',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=DRFELIPEARAUJO',
+    foguetinho: '',
+  },
+  {
+    name: 'DYNHOALVES',
+    seller: 'DYNHOALVES',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=DYNHOALVES',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CVM122331',
+  },
+  {
+    name: 'EDINHOMAMAE',
+    seller: 'EDINHOMAMAE',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=EDINHOMAMAE',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CCW121474',
+  },
+  {
+    name: 'EDIQUEIXINHO',
+    seller: 'EDIQUEIXINHO',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=EDIQUEIXINHO',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CSE121473',
+  },
+  {
+    name: 'EDUARDOVELOSOOF',
+    seller: 'EDUARDOVELOSOOF',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=EDUARDOVELOSOOF',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CPE121477',
+  },
+  {
+    name: 'EIPRIH',
+    seller: 'EIPRIH',
+    betzord: 'https://pay.hotmart.com/B66515443S?checkoutMode=10&bid=1644450672515&offDiscount=EIPRIH',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CEX121479',
+  },
+  {
+    name: 'ELIABE',
+    seller: 'ELIABE',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=ELIABE',
+    foguetinho: '',
+  },
+  {
+    name: 'EUDISBOCUDA',
+    seller: 'EUDISBOCUDA',
+    betzord: 'https://pay.hotmart.com/B66515443S?checkoutMode=10&bid=1644450672515&offDiscount=EUDISBOCUDA',
+    foguetinho: '',
+  },
+  {
+    name: 'EULEANDROBARROSM',
+    seller: 'EULEANDROBARROSM',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=EULEANDROBARROSM',
+    foguetinho: '',
+  },
+  {
+    name: 'EUORLANDINHO',
+    seller: 'EUORLANDINHO',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=EUORLANDINHO',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CYX121492',
+  },
+  {
+    name: 'EURADIJAPEREIRA',
+    seller: 'EURADIJAPEREIRA',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=EURADIJAPEREIRA',
+    foguetinho: '',
+  },
+  {
+    name: 'EUTHIAGOSILVAAA',
+    seller: 'EUTHIAGOSILVAAA',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=EUTHIAGOSILVAAA',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CBZ121515',
+  },
+  {
+    name: 'FABIOBRAZ',
+    seller: 'FABIOBRAZ',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=FABIOBRAZ',
+    foguetinho: '',
+  },
+  {
+    name: 'FALETAA',
+    seller: 'FALETAA',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=FALETAA',
+    foguetinho: '',
+  },
+  {
+    name: 'FAZERUPGRADE',
+    seller: 'FAZERUPGRADE',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644872020999&offDiscount=FAZERUPGRADE',
+    foguetinho: '',
+  },
+  {
+    name: 'FELIPEMAIA',
+    seller: 'FELIPEMAIA',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=FELIPEMAIA',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CFQ122381',
+  },
+  {
+    name: 'FUICLEAR',
+    seller: 'FUICLEAR',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=FUICLEAR',
+    foguetinho: '',
+  },
+  {
+    name: 'GABILY',
+    seller: 'GABILY',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=GABILY',
+    foguetinho: '',
+  },
+  {
+    name: 'GABIMARTINS',
+    seller: 'GABIMARTINS',
+    betzord: 'https://pay.hotmart.com/N66517827C?checkoutMode=10&bid=1644521740977&offDiscount=GABIMARTINS',
+    foguetinho: '',
+  },
+  {
+    name: 'GERSONALBUQUERQUE',
+    seller: 'GERSONALBUQUERQUE',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=GERSONALBUQUERQUE',
+    foguetinho: '',
+  },
+  {
+    name: 'EDUARDO BAPTISTA',
+    seller: 'GOLDORAYO',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=GOLDORAYO',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CRA123539',
+  },
+  {
+    name: 'GRACIELLYWILIANE',
+    seller: 'GRACIELLYWILIANE',
+    betzord: 'https://pay.hotmart.com/F66507737N?checkoutMode=10&bid=1644444571177&offDiscount=GRACIELLYWILIANE',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CUW121481',
+  },
+  {
+    name: 'GUILHERMEPINHEIRO',
+    seller: 'GUILHERMEPINHEIRO',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=GUILHERMEPINHEIRO',
+    foguetinho: '',
+  },
+  {
+    name: 'INSTAGRAMDIRECT',
+    seller: 'INSTAGRAMDIRECT',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644872020999&offDiscount=INSTAGRAMDIRECT',
+    foguetinho: '',
+  },
+  {
+    name: 'ISAUOFICIAL',
+    seller: 'ISAUOFICIAL',
+    betzord: 'https://pay.hotmart.com/F66507737N?checkoutMode=10&bid=1644444571177&offDiscount=ISAUOFICIAL',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CKB122160',
+  },
+  {
+    name: 'ITALOMATEUS',
+    seller: 'ITALOMATEUS',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=ITALOMATEUS',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CER121482',
+  },
+  {
+    name: 'JACQUESVANIER',
+    seller: 'JACQUESVANIER',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=JACQUESVANIER',
+    foguetinho: '',
+  },
+  {
+    name: 'JAINECASSU',
+    seller: 'JAINECASSU',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=JAINECASSU',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CJQ121519',
+  },
+  {
+    name: 'JANAHORRARYA',
+    seller: 'JANAHORRARYA',
+    betzord: 'https://pay.hotmart.com/B66515443S?checkoutMode=10&bid=1644450672515&offDiscount=JANAHORRARYA',
+    foguetinho: '',
+  },
+  {
+    name: 'JEFFERSONMACHADO',
+    seller: 'JEFFERSONMACHADO',
+    betzord: 'https://pay.hotmart.com/F66507737N?checkoutMode=10&bid=1644444571177&offDiscount=JEFFERSONMACHADO',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CFD121516',
+  },
+  {
+    name: 'JENNIFERLETYCIA',
+    seller: 'JENNIFERLETYCIA',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=JENNIFERLETYCIA',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CHN121570',
+  },
+  {
+    name: 'JESPOLIANO',
+    seller: 'JESPOLIANO',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=JESPOLIANO',
+    foguetinho: '',
+  },
+  {
+    name: 'JHON',
+    seller: 'JHON',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=JHON',
+    foguetinho: '',
+  },
+  {
+    name: 'JONATHANRODRIGUES',
+    seller: 'JONATHANRODRIGUES',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=JONATHANRODRIGUES',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CWT122340',
+  },
+  {
+    name: 'JUHBRASIL',
+    seller: 'JUHBRASIL',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=JUHBRASIL',
+    foguetinho: '',
+  },
+  {
+    name: 'JUKANALHA',
+    seller: 'JUKANALHA',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=JUKANALHA',
+    foguetinho: '',
+  },
+  {
+    name: 'JULIANAPRISCILAOFC',
+    seller: 'JULIANAPRISCILAOFC',
+    betzord: 'https://pay.hotmart.com/B66515443S?checkoutMode=10&bid=1644450672515&offDiscount=JULIANAPRISCILAOFC',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CYQ121483',
+  },
+  {
+    name: 'JULIASOUZAJ',
+    seller: 'JULIASOUZAJ',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=JULIASOUZAJ',
+    foguetinho: '',
+  },
+  {
+    name: 'KELFERRETI',
+    seller: 'KELFERRETI',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=KELFERRETI',
+    foguetinho: '',
+  },
+  {
+    name: 'KELLYARAUJO',
+    seller: 'KELLYARAUJO',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=KELLYARAUJO',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CZU121798',
+  },
+  {
+    name: 'KELVINSABINOU',
+    seller: 'KELVINSABINOU',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=KELVINSABINOU',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CFS121487',
+  },
+  {
+    name: 'KENNEDYMENDES',
+    seller: 'KENNEDYMENDES',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=KENNEDYMENDES',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CQH122589',
+  },
+  {
+    name: 'LAISOLIVEIRA',
+    seller: 'LAISOLIVEIRA',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=LAISOLIVEIRA',
+    foguetinho: '',
+  },
+  {
+    name: 'LARASILVA',
+    seller: 'LARASILVA',
+    betzord: 'https://pay.hotmart.com/F66507737N?checkoutMode=10&bid=1644444571177&offDiscount=LARASILVA',
+    foguetinho: '',
+  },
+  {
+    name: 'LARISALVADOR',
+    seller: 'LARISALVADOR',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=LARISALVADOR',
+    foguetinho: '',
+  },
+  {
+    name: 'LARISSAFOXOFIC',
+    seller: 'LARISSAFOXOFIC',
+    betzord: 'https://pay.hotmart.com/F66507737N?checkoutMode=10&bid=1644444571177&offDiscount=LARISSAFOXOFIC',
+    foguetinho: '',
+  },
+  {
+    name: 'LARISSASALVADOROFC',
+    seller: 'LARISSASALVADOROFC',
+    betzord: 'https://pay.hotmart.com/F66507737N?checkoutMode=10&bid=1644444571177&offDiscount=LARISSASALVADOROFC',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CWV122816',
+  },
+  {
+    name: 'LAUANETAUANE',
+    seller: 'LAUANETAUANE',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=LAUANETAUANE',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CPL121517',
+  },
+  {
+    name: 'LAURINHAFEER',
+    seller: 'LAURINHAFEER',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=LAURINHAFEER',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CNM121488',
+  },
+  {
+    name: 'LENYLSONDANIEL',
+    seller: 'LENYLSONDANIEL',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=LENYLSONDANIEL',
+    foguetinho: '',
+  },
+  {
+    name: 'LEOMARQUESS',
+    seller: 'LEOMARQUESS',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=LEOMARQUESS',
+    foguetinho: '',
+  },
+  {
+    name: 'LETICIASILVA',
+    seller: 'LETICIASILVA',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=LETICIASILVA',
+    foguetinho: '',
+  },
+  {
+    name: 'LETICIASILVA',
+    seller: 'LETICIASILVA',
+    betzord: 'https://pay.hotmart.com/F66507737N?checkoutMode=10&bid=1644444571177&offDiscount=LETICIASILVA',
+    foguetinho: '',
+  },
+  {
+    name: 'LEVELUP007 (Samuel dos Santos Lima)',
+    seller: 'LEVELUP007',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=LEVELUP007',
+    foguetinho: '',
+  },
+  {
+    name: 'LEYLAARRAIS',
+    seller: 'LEYLAARRAIS',
+    betzord: 'https://pay.hotmart.com/B66515443S?checkoutMode=10&bid=1644450672515&offDiscount=LEYLAARRAIS',
+    foguetinho: '',
+  },
+  {
+    name: 'LIGIALAIANY',
+    seller: 'LIGIALAIANY',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=LIGIALAIANY',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CKD121489',
+  },
+  {
+    name: 'LOMA',
+    seller: 'LOMA',
+    betzord: 'https://pay.hotmart.com/F66507737N?checkoutMode=10&bid=1644444571177&offDiscount=LOMA',
+    foguetinho: '',
+  },
+  {
+    name: 'LUANEOFICIAL',
+    seller: 'LUANEOFICIAL',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=LUANEOFICIAL',
+    foguetinho: '',
+  },
+  {
+    name: 'LUCASTYLTY',
+    seller: 'LUCASTYLTY',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644872020999&offDiscount=LUCASTYLTY',
+    foguetinho: '',
+  },
+  {
+    name: 'LUCASVRAU',
+    seller: 'LUCASVRAU',
+    betzord: 'https://pay.hotmart.com/F66507737N?checkoutMode=10&bid=1644444571177&offDiscount=LUCASVRAU',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CJJ121816',
+  },
+  {
+    name: 'LUISFELIPE',
+    seller: 'LUISFELIPE',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=LUISFELIPE',
+    foguetinho: '',
+  },
+  {
+    name: 'LUIZMIRANDADILHO',
+    seller: 'LUIZMIRANDADILHO',
+    betzord: 'https://pay.hotmart.com/F66507737N?checkoutMode=10&bid=1644444571177&offDiscount=LUIZMIRANDADILHO',
+    foguetinho: '',
+  },
+  {
+    name: 'MALUZINHAALB',
+    seller: 'MALUZINHAALB',
+    betzord: 'https://pay.hotmart.com/F66507737N?checkoutMode=10&bid=1644444571177&offDiscount=MALUZINHAALB',
+    foguetinho: '',
+  },
+  {
+    name: 'MARIAEUGENIAFIT',
+    seller: 'MARIAEUGENIAFIT',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=MARIAEUGENIAFIT',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CQJ121938',
+  },
+  {
+    name: 'MARTINKLAYVER',
+    seller: 'MARTINKLAYVER',
+    betzord: 'https://pay.hotmart.com/B66515443S?checkoutMode=10&bid=1644450672515&offDiscount=MARTINKLAYVER',
+    foguetinho: '',
+  },
+  {
+    name: 'MARTINKLAYVER',
+    seller: 'MARTINKLAYVER',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=MARTINKLAYVER',
+    foguetinho: '',
+  },
+  {
+    name: 'MATHEUSMELOORIGINAL',
+    seller: 'MATHEUSCLAUS',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=MATHEUSCLAUS',
+    foguetinho: '',
+  },
+  {
+    name: 'MATHEUSYURLEY',
+    seller: 'MATHEUSYURLEY',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=MATHEUSYURLEY',
+    foguetinho: '',
+  },
+  {
+    name: 'MAXSUELZINHO',
+    seller: 'MAXSUELZINHO',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=MAXSUELZINHO',
+    foguetinho: '',
+  },
+  {
+    name: 'MCBMOOO',
+    seller: 'MCBMOOO',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=MCBMOOO',
+    foguetinho: '',
+  },
+  {
+    name: 'MCGUI',
+    seller: 'MCGUI',
+    betzord: 'https://pay.hotmart.com/F66507737N?checkoutMode=10&bid=1644444571177&offDiscount=MCGUI',
+    foguetinho: '',
+  },
+  {
+    name: 'MELQUIAZEVEDO',
+    seller: 'MELQUIAZEVEDO',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=MELQUIAZEVEDO',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CMK121490',
+  },
+  {
+    name: 'MENEZESGI',
+    seller: 'MENEZESGI',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=MENEZESGI',
+    foguetinho: '',
+  },
+  {
+    name: 'MENINODOIMBUOFICIAL',
+    seller: 'MENINODOIMBUOFICIAL',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=MENINODOIMBUOFICIAL',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CQD121944',
+  },
+  {
+    name: 'MISAEL',
+    seller: 'MISAEL',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=MISAEL',
+    foguetinho: '',
+  },
+  {
+    name: 'MOISAJR',
+    seller: 'MOISAJR',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=MOISAJR',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CLL121463',
+  },
+  {
+    name: 'MURIELWYLKER',
+    seller: 'MURIELWYLKER',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=MURIELWYLKER',
+    foguetinho: '',
+  },
+  {
+    name: 'NEYLIMA',
+    seller: 'NEYLIMA',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=NEYLIMA',
+    foguetinho: '',
+  },
+  {
+    name: 'OFERNANDOSARDINHA',
+    seller: 'OFERNANDOSARDINHA',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=OFERNANDOSARDINHA',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CFX121480',
+  },
+  {
+    name: 'OFICIALTHIAGOBARROS',
+    seller: 'OFICIALTHIAGOBARROS',
+    betzord: 'https://pay.hotmart.com/F66507737N?checkoutMode=10&bid=1644444571177&offDiscount=OFICIALTHIAGOBARROS',
+    foguetinho: '',
+  },
+  {
+    name: 'OGUSTAVOTUBARAO',
+    seller: 'AlissonJORDANN',
+    betzord: 'https://pay.hotmart.com/B66515443S?checkoutMode=10&bid=1644450672515&offDiscount=OGUSTAVOTUBARAO',
+    foguetinho: '',
+  },
+  {
+    name: 'ONILSONNETO',
+    seller: 'ONILSONNETO',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=ONILSONNETO',
+    foguetinho: '',
+  },
+  {
+    name: 'OPAIDOORGANICO',
+    seller: 'OPAIDOORGANICO',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=OPAIDOORGANICO',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CBJ121514',
+  },
+  {
+    name: 'OTARIANO',
+    seller: 'OTARIANO',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=OTARIANO',
+    foguetinho: '',
+  },
+  {
+    name: 'PAHTTY',
+    seller: 'PAHTTY',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=PAHTTY',
+    foguetinho: '',
+  },
+  {
+    name: 'PAOLLAATAIDE',
+    seller: 'PAOLLAATAIDE',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=PAOLLAATAIDE',
+    foguetinho: '',
+  },
+  {
+    name: 'PATRICKJIMENEZ',
+    seller: 'PATRICKJIMENEZ',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=PATRICKJIMENEZ',
+    foguetinho: '',
+  },
+  {
+    name: 'PAULINAATTAIDE',
+    seller: 'PAULINAATTAIDE',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=PAULINAATTAIDE',
+    foguetinho: '',
+  },
+  {
+    name: 'PAULORICARDOOFF',
+    seller: 'PAULORICARDOOFF',
+    betzord: 'https://pay.hotmart.com/B66515443S?checkoutMode=10&bid=1644450672515&offDiscount=PAULORICARDOOFF',
+    foguetinho: '',
+  },
+  {
+    name: 'PRAZERGABI',
+    seller: 'PRAZERGABI',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=PRAZERGABI',
+    foguetinho: '',
+  },
+  {
+    name: 'PRISCILAGAMA',
+    seller: 'PRISCILAGAMA',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=PRISCILAGAMA',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CJZ121936',
+  },
+  {
+    name: 'RAFAMENY (RAFAEL MENDES)',
+    seller: 'RAFAMENY',
+    betzord: 'https://pay.hotmart.com/F66507737N?checkoutMode=10&bid=1644444571177&offDiscount=RAFAMENY',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CYG121494',
+  },
+  {
+    name: 'RAFFAELASOUZA',
+    seller: 'RAFFAELASOUZA',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=RAFFAELASOUZA',
+    foguetinho: '',
+  },
+  {
+    name: 'RAISSAOLIVEIRA',
+    seller: 'RAISSAOLIVEIRA',
+    betzord: 'https://pay.hotmart.com/F66507737N?checkoutMode=10&bid=1644444571177&offDiscount=RAISSAOLIVEIRA',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CJW121496',
+  },
+  {
+    name: 'RONINHO',
+    seller: 'RONINHO',
+    betzord: 'https://pay.hotmart.com/F66507737N?checkoutMode=10&bid=1644444571177&offDiscount=RONINHO',
+    foguetinho: '',
+  },
+  {
+    name: 'SALVADORDARIMA',
+    seller: 'SALVADORDARIMA',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=SALVADORDARIMA',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CSJ122799',
+  },
+  {
+    name: 'SOLANGEBEZERRA',
+    seller: 'SOLANGEBEZERRA',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=SOLANGEBEZERRA',
+    foguetinho: '',
+  },
+  {
+    name: 'SUPORTE',
+    seller: 'SUPORTE',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644872020999&offDiscount=SUPORTE',
+    foguetinho: '',
+  },
+  {
+    name: 'TALITAANDRADE',
+    seller: 'TALITAANDRADE',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=TALITAANDRADE',
+    foguetinho: '',
+  },
+  {
+    name: 'TAYNARACABRAL',
+    seller: 'TAYNARACABRAL',
+    betzord: 'https://pay.hotmart.com/F66507737N?checkoutMode=10&bid=1644444571177&offDiscount=TAYNARACABRAL',
+    foguetinho: '',
+  },
+  {
+    name: 'TEAGUBRUNO',
+    seller: 'TEAGUBRUNO',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=TEAGUBRUNO',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CHN121573',
+  },
+  {
+    name: 'THAYRODRIGUES',
+    seller: 'THAYRODRIGUES',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=THAYRODRIGUES',
+    foguetinho: '',
+  },
+  {
+    name: 'TYLTY',
+    seller: 'TYLTY',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644872020999&offDiscount=TYLTY',
+    foguetinho: '',
+  },
+  {
+    name: 'UPGRADEBETZORD',
+    seller: 'UPGRADEBETZORD',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644872020999&offDiscount=UPGRADEBETZORD',
+    foguetinho: '',
+  },
+  {
+    name: 'VALDONIER BRYAN',
+    seller: 'VALDONIER',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=VALDONIER',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CNE121466',
+  },
+  {
+    name: 'VAVACUNHA',
+    seller: '',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=VAVACUNHA',
+    foguetinho: '',
+  },
+  {
+    name: 'VERINHAJR',
+    seller: 'VERINHAJR',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=VERINHAJR',
+    foguetinho: '',
+  },
+  {
+    name: 'VIIHTUBE',
+    seller: 'VIIHTUBE',
+    betzord: 'https://pay.hotmart.com/N66517827C?checkoutMode=10&bid=1644521740977&offDiscount=VIIHTUBE',
+    foguetinho: '',
+  },
+  {
+    name: 'VINICIUSBARROS12',
+    seller: 'VINICIUSBARROS12',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=VINICIUSBARROS12',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CCH121567',
+  },
+  {
+    name: 'WAGUINHO (Wagner Victor Dos Santos Silva)',
+    seller: 'WAGUINHO',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=WAGUINHO',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CNH121495',
+  },
+  {
+    name: 'WELLENROCHAOFICIAL',
+    seller: 'WELLENROCHAOFICIAL',
+    betzord: 'https://pay.hotmart.com/B66515443S?checkoutMode=10&bid=1644450672515&offDiscount=WELLENROCHAOFICIAL',
+    foguetinho: '',
+  },
+  {
+    name: 'WESSKLEY',
+    seller: 'WESSKLEY',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=WESSKLEY',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CCL121520',
+  },
+  {
+    name: 'SAULO OLIVEIRA',
+    seller: 'SAULOOLIVEIRA',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CVF121497',
+  },
+  {
+    name: 'PEDRO HENRIQUE',
+    seller: 'PEDROHENRIQUE',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CXN121478',
+  },
+  {
+    name: 'MARCELO MORENO',
+    seller: 'MARCELOMORENO',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CHQ121484',
+  },
+  {
+    name: 'RAIANNE MARIA',
+    seller: 'RAIANNEMARIA',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CEL121527',
+  },
+  {
+    name: 'LAYLA DUTRA',
+    seller: 'LAYLADUTRA',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CBU121525',
+  },
+  {
+    name: 'BOB ESTRELA',
+    seller: 'BOBESTRELA',
+    betzord: 'https://pay.hotmart.com/next/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=BOBESTRELA',
+    foguetinho: '',
+  },
+  {
+    name: 'LUCA NETA',
+    seller: 'LUCANETA10',
+    betzord: 'https://pay.hotmart.com/next/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=LUCANETA10',
+    foguetinho: '',
+  },
+  {
+    name: 'LEO MOURA',
+    seller: 'LEOMOURA23',
+    betzord: 'https://pay.hotmart.com/next/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=LEOMOURA23',
+    foguetinho: '',
+  },
+  {
+    name: 'SUZANNA FREITAS',
+    seller: 'SUZANNAFREITAS',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=SUZANNAFREITAS',
+    foguetinho: '',
+  },
+  {
+    name: 'MENGAO O MELHOR',
+    seller: 'MENGAOOMELHOR',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=MENGAOOMELHOR',
+    foguetinho: '',
+  },
+  {
+    name: 'CLEVER',
+    seller: 'CLEVERNEUMANN',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=CLEVERNEUMANN',
+    foguetinho: '',
+  },
+  {
+    name: 'PAULINHO PR9',
+    seller: 'PAULINHOPR9',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=PAULINHOPR9',
+    foguetinho: '',
+  },
+  {
+    name: 'MARIA CLARA',
+    seller: 'MARIACLARAAOFICIAL',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=MARIACLARAAOFICIAL',
+    foguetinho: '',
+  },
+  {
+    name: 'MATHEUS SAMPAIO',
+    seller: 'MATHEUSSAMPAIO',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=MATHEUSSAMPAIO',
+    foguetinho: '',
+  },
+  {
+    name: 'VANESSA CARVALHO',
+    seller: 'VANESSCARVALHO',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=VANESSCARVALHO',
+    foguetinho: '',
+  },
+  {
+    name: 'NIVALDO',
+    seller: 'NIVALDO',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=NIVALDO',
+    foguetinho: '',
+  },
+  {
+    name: 'SAULO OLIVEIRA',
+    seller: 'SAULOOLIVEIRAOFC2',
+    betzord: 'https://pay.hotmart.com/B66515443S?checkoutMode=10&bid=1647127847392&offDiscount=SAULOOLIVEIRAOFC2',
+    foguetinho: '',
+  },
+  {
+    name: 'LUCAS MATOS - PRIMOVIRGEM',
+    seller: 'PRIMOVIRGEM',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=PRIMOVIRGEM',
+    foguetinho: '',
+  },
+  {
+    name: 'MATHEUS MELO',
+    seller: 'MATHUESMELOORIGINAL',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1645464752395&offDiscount=MATHUESMELOORIGINAL',
+    foguetinho: '',
+  },
+  {
+    name: 'PAPARAZZO RUBRO NEGRO',
+    seller: 'PAPARAZZORUBRONEGRO',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1645046508171&offDiscount=PAPARAZZORUBRONEGRO',
+    foguetinho: '',
+  },
+  {
+    name: 'EDSON MASCARENHAS',
+    seller: 'EDSONMASCARENHAS',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=0&bid=1644249664838&offDiscount=EDSONMASCARENHAS',
+    foguetinho: '',
+  },
+  {
+    name: 'José Ronaldo Leonel Da Silva',
+    seller: 'MENINODOIMBUOFICIAL',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=MENINODOIMBUOFICIAL',
+    foguetinho: '',
+  },
+  {
+    name: 'Daniel Henriique de Souza do Santos',
+    seller: 'DANGSOFICIAL',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=DANGSOFICIAL',
+    foguetinho: '',
+  },
+  {
+    name: 'Djheniffer Oliveira Ferreira',
+    seller: 'DJHENIFFER',
+    betzord: 'https://pay.hotmart.com/F66507737N?checkoutMode=10&bid=1644444571177&offDiscount=DJHENIFFER',
+    foguetinho: '',
+  },
+  {
+    name: 'THUANY LIMA',
+    seller: 'THUANYMA',
+    betzord: 'https://pay.hotmart.com/next/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=THUANYMA',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CWM121753',
+  },
+  {
+    name: 'ALEXANDER LOPES',
+    seller: 'ALLEXANDERLOPES',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=ALLEXANDERLOPES',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CRE121754',
+  },
+  {
+    name: 'ALLAN DENTINHO',
+    seller: 'ALLAN_DENTINHO',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CJW121755',
+  },
+  {
+    name: 'Gabriel Cardozo',
+    seller: 'BIELCARDOZ0',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CTX121786',
+  },
+  {
+    name: 'Shelda Paulino',
+    seller: 'SHELDAPAULINOM',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CUN121787',
+  },
+  {
+    name: 'Yngrid Karollyne Ferro Lima',
+    seller: 'GUIGUIMAKEUP',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CXG121788',
+  },
+  {
+    name: 'Hugo Marcelo Novaes figueirôa',
+    seller: 'HUGONOVAESF',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CGC121789',
+  },
+  {
+    name: 'Amandinha Souza',
+    seller: 'AMANDASOUZA',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CTG121785',
+  },
+  {
+    name: 'MATHEUS BECKER SCHEYER',
+    seller: 'QUELANCEEXTRA',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=QUELANCEEXTRA',
+    foguetinho: '',
+  },
+  {
+    name: 'KEL FERRETI',
+    seller: 'KELFERRETI',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CYN121810',
+  },
+  {
+    name: 'JOAO PEDRO LISBOA',
+    seller: 'JOAOPEDROLISBOA',
+    betzord: 'https://pay.hotmart.com/N66517827C?checkoutMode=10&bid=1649792684118&offDiscount=JOAOPEDROLISBOA',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CRF121809',
+  },
+  {
+    name: 'MATEUS FELIPE (LATREL)',
+    seller: 'LATRELOFC',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CYD121811',
+  },
+  {
+    name: 'WILLAMS DOS SANTOS',
+    seller: 'WILLAMS',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CTL121857',
+  },
+  {
+    name: 'JULIANA SEIXAS',
+    seller: 'FELIPEARAUJOLLIMA',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CRD121858',
+  },
+  {
+    name: 'TULIO  FERREIRA',
+    seller: 'EUTULION',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CEF121859',
+  },
+  {
+    name: 'MARCELLA BRAGANCA',
+    seller: 'MMARCELLABRAGANCA',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CVW121931',
+  },
+  {
+    name: 'PAULO HENRIQUE',
+    seller: 'RIFASDOGURIZINHO',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CYL121933',
+  },
+  {
+    name: 'CARLÃO SOLTO',
+    seller: 'CARLAOSOLTO031',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CHY121934',
+  },
+  {
+    name: 'PATRICIA VIANA',
+    seller: 'ROBEERTAV',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CEC121935',
+  },
+  {
+    name: 'PEDRO ATHOS',
+    seller: 'PASTRANAVLOGS',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CZX121937',
+  },
+  {
+    name: 'TAYANE BARROS',
+    seller: 'TAYANEBARROOS',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CSY121963',
+  },
+  {
+    name: 'GABRIEL 3G',
+    seller: 'GABRIELSOBREIRAA3G',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CLB121970',
+  },
+  {
+    name: 'NETO GUEDES',
+    seller: 'NETOGUEDES',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CXG121979',
+  },
+  {
+    name: 'PEDRO MARINHO',
+    seller: 'PEDROMARINHONETO',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=PEDROMARINHONETO',
+    foguetinho: '',
+  },
+  {
+    name: 'ROBSON RICARDO MATIAS',
+    seller: 'CARTORROBINHO',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=CARTORROBINHO',
+    foguetinho: '',
+  },
+  {
+    name: 'GABRIEL  VICTHOR DE MOURA',
+    seller: 'GABRIELLMOOURA',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CEU122029',
+  },
+  {
+    name: 'JAIRO MARQUES',
+    seller: 'FOFOCASALVADOR',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CWR122030',
+  },
+  {
+    name: 'DANIEL MIRANDA',
+    seller: 'DANIELMIRANDAMOTORS',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CNY122031',
+  },
+  {
+    name: 'GIORGIO BARONE',
+    seller: 'BARONE',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=BARONE',
+    foguetinho: '',
+  },
+  {
+    name: 'UELLINGTON BOTOF',
+    seller: 'BOTOF',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CVL122102',
+  },
+  {
+    name: 'LARISSA OLIVEIRA',
+    seller: 'LARIOLIVEIRAAOFICIAL',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CRL122111',
+  },
+  {
+    name: 'KAYQUE SILVER',
+    seller: 'KAYQUESILVER',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CAG122112',
+  },
+  {
+    name: 'DANYELLE RORIZ',
+    seller: 'DANYRORIZZRESERVA',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CHK122122',
+  },
+  {
+    name: 'MARCOS DOS ANJOS',
+    seller: 'MARCODOSANJOS',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CMH122123',
+  },
+  {
+    name: 'EMANUEL DE SOUZA',
+    seller: 'EUMANELOFICIAL',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CCY122124',
+  },
+  {
+    name: 'MARINA FERRARI',
+    seller: 'MARINAFERRARIG',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CPZ122157',
+  },
+  {
+    name: 'CAROLINNE OLIVEIRA',
+    seller: 'CAROLINNEOFICIAL',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CTL122158',
+  },
+  {
+    name: 'TULIO',
+    seller: 'FERRTULIO',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CPY122248',
+  },
+  {
+    name: 'LARISSA CARIM',
+    seller: 'LARICARIM',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CAN122294',
+  },
+  {
+    name: 'JEFFERSON SIMÕES BARBOSA',
+    seller: 'JEFFBARBOSAOFC',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=JEFFBARBOSAOFC',
+    foguetinho: '',
+  },
+  {
+    name: 'JHONATAS DE CASTRO CERVAN',
+    seller: 'MLKJHOOW',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=MLKJHOOW',
+    foguetinho: '',
+  },
+  {
+    name: 'ANTONIO CARLOS',
+    seller: 'MCBRUNINHODAPRAIA',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CSG122379',
+  },
+  {
+    name: 'WELITON GOMES',
+    seller: 'NENEMDAGATAPRETA',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CPK122519',
+  },
+  {
+    name: 'MARLEI ALVES',
+    seller: 'MARLEIALVESS',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CUV122520',
+  },
+  {
+    name: 'EDILSON LIMA',
+    seller: 'EDILSONLIMA',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CUL122530',
+  },
+  {
+    name: 'LUMENA ALELUIA',
+    seller: 'LUMENAALELUIA',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=LUMENAALELUIA',
+    foguetinho: '',
+  },
+  {
+    name: 'ROGER RODRIGUES',
+    seller: 'ROGINHODUOURO',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CKR122652',
+  },
+  {
+    name: 'LEANDRO MEDEIROS',
+    seller: 'LMEDEIROS82',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CCK122714',
+  },
+  {
+    name: 'LUCAS FERNANDO',
+    seller: 'LUCASFERNANDO',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CQE122715',
+  },
+  {
+    name: 'HUGO DA SILVA MENEZES',
+    seller: 'HUGOMENEZEZOF',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CNF122718',
+  },
+  {
+    name: 'KEDMA FONSECA DE OLIVEIRA',
+    seller: 'KEDMAHHH',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CNG122815',
+  },
+  {
+    name: 'JOÃO PAULO PEREIRA MOTA',
+    seller: 'JOAONUGASS',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CJR122968',
+  },
+  {
+    name: 'EDUARDO LUIZ SANTOS JUNIOR',
+    seller: 'EDUJRSANTOS',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CST123002',
+  },
+  {
+    name: 'LUIZ GUSTAVO FORNELI (JADE CASAES)',
+    seller: 'JADECASAESOFICIAL',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CHS123010',
+  },
+  {
+    name: 'LUIZ GUSTAVO FORNELI (BIANCA CASSINO)',
+    seller: 'KSSIANU',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CZC123011',
+  },
+  {
+    name: 'CAROLINA CONDESSA',
+    seller: 'CAROLINACONDESSA',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CWY123047',
+  },
+  {
+    name: 'TIAGO BRANCO DE OLIVEIRA',
+    seller: 'OTIAGOBRANCO',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CUY123049',
+  },
+  {
+    name: 'LUCAS FELIPE GOMES DE SOUZA',
+    seller: 'FELIPESOUZAAOFICIAL',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CZP123076',
+  },
+  {
+    name: 'RODRIGO FILIPE MARTINS',
+    seller: 'DIGAOSHOW',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CSU123077',
+  },
+  {
+    name: 'LUIZ GUSTAVO FORNELI (GUSTAVO GIGANTE)',
+    seller: 'GIGANTEOFICIAL1',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CZN123083',
+  },
+  {
+    name: 'JONATAS DOS SANTOS COIMBRA',
+    seller: 'JONATASFERRARI',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CDN123127',
+  },
+  {
+    name: 'EVERTON ISACK TEODORO TEIXEIRA',
+    seller: 'DJEVERTONMARTINS',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CAZ123128',
+  },
+  {
+    name: 'ROBERTA LOREN RODRIGUES REZENDE',
+    seller: 'EUROBERTALOREN',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CPN123169',
+  },
+  {
+    name: 'BRUNA LADY PRATA NETO',
+    seller: 'BRUNALADY',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CDV123178',
+  },
+  {
+    name: 'HEITOR DE OLIVEIRA PEDROSA MARTINS',
+    seller: 'HEITORMARTINIZI',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CHK123207',
+  },
+  {
+    name: 'ALEXANDRE FERREIRA MORAES',
+    seller: 'XANDEBRAZIL',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CBC123278',
+  },
+  {
+    name: 'GABRIEL LUCAS ALVES NASCIMENTO',
+    seller: 'GABRIELUCASFEIJAO',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CDJ123295',
+  },
+  {
+    name: 'JOANA DARC',
+    seller: 'COXALOKA',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CKF123296',
+  },
+  {
+    name: 'CAILA CARIM BELCHIOR',
+    seller: 'CAILACARIM',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CMR123352',
+  },
+  {
+    name: 'MATHEUS DE MELO SANTOS',
+    seller: 'MATHEUSMELOORIGINAL',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CSQ123353',
+  },
+  {
+    name: 'BRENO LEONARDO LARGARES',
+    seller: 'BLSHEIK',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CQS123365',
+  },
+  {
+    name: 'RAFAEL GERMANO CEZARIO',
+    seller: 'RGERMANO',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CPD123366',
+  },
+  {
+    name: 'RUAN AUGUSTO NASCIMENTO DE MELO',
+    seller: 'CANTORAUGUSTO',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CJW123367',
+  },
+  {
+    name: 'RAYANNE DOS SANTOS OLIVEIRA',
+    seller: 'RHAYFITOFICIAL',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CTF123368',
+  },
+  {
+    name: 'JULIA LETICIA MARINHO',
+    seller: 'JULIAMARINHO',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CLP123397',
+  },
+  {
+    name: 'KEL',
+    seller: 'KEL',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CSE123398',
+  },
+  {
+    name: 'TOMER SAVOIA',
+    seller: 'TOMERSAVOIA',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=TOMERSAVOIA',
+    foguetinho: '',
+  },
+  {
+    name: 'CARLA MARINA REIS',
+    seller: 'CARLABORA',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CVR123540',
+  },
+  {
+    name: 'LIANDRA BRUDER',
+    seller: 'BRUDERR',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CMF123541',
+  },
+  {
+    name: 'IGOR DA SILVA TORRES',
+    seller: 'MCBOMBOMOFICIAL',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CWB123542',
+  },
+  {
+    name: 'ALESSANDRA MELISSA RODRIGUES',
+    seller: 'DJMELRODRIGUES',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CTF123543',
+  },
+  {
+    name: 'LAURYEN CAMARGO AMÉRICO',
+    seller: 'LAUAMERICO',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CDU123560',
+  },
+  {
+    name: 'SAMUEL FREITAS',
+    seller: 'SAHAINFLUENCER',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CBW123562',
+  },
+  {
+    name: 'SIDNEY PEDROSO',
+    seller: 'SIDNEYPEDROSO',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CBE123642',
+  },
+  {
+    name: 'LEONARDO MENDES DA SILVA',
+    seller: 'LEOPAVELLINI',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CAJ123687',
+  },
+  {
+    name: 'BRUNO VINICIUS MONTEIRO DOS SANTOS',
+    seller: 'BRUNOCONCEITO',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CLZ123725',
+  },
+  {
+    name: 'MIKE DA SILVA BERNARDINO',
+    seller: 'MIKEBERNARDINO',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CPE123768',
+  },
+  {
+    name: 'ANDREZA BELCHIOR',
+    seller: 'ANDREZABELCHIOR',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CSX123773',
+  },
+  {
+    name: 'RICARDO MUNIZ',
+    seller: 'RICARDOGRAU',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CEJ123774',
+  },
+  {
+    name: 'LUIZ HENRIQUE MIRANDA FILHO',
+    seller: 'LUIZMIRANDAFILHO',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CJR123857',
+  },
+  {
+    name: 'CARLINHOS MAIA',
+    seller: 'CARLINHOSMAIA',
+    betzord: '',
+    foguetinho: 'https://pay.hotmart.com/X70366315R?checkoutMode=10&offDiscount=CARLINHOSMAIA',
+  },
+  {
+    name: 'LUCAS ANTONIO GALVÃO',
+    seller: 'GALVAOSOMOFICIAL',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CSJ123871',
+  },
+  {
+    name: 'João Victor',
+    seller: 1235,
+    betzord: 'https://pay.hotmart.com/S67803507J?checkoutMode=10&offDiscount=1235',
+    foguetinho: 'https://pay.hotmart.com/X70366315R?checkoutMode=10&offDiscount=1235',
+    tyltyscore: '',
+    copiloto: '',
+    tyltyscored1: '',
+    copilotod1: '',
+  },
+  {
+    name: 'Daniel H',
+    seller: 1994,
+    betzord: 'https://pay.hotmart.com/S67803507J?checkoutMode=10&offDiscount=1994',
+    foguetinho: 'https://pay.hotmart.com/X70366315R?checkoutMode=10&offDiscount=1994',
+    tyltyscore: '',
+    copiloto: '',
+    tyltyscored1: '',
+    copilotod1: '',
+  },
+  {
+    name: 'Luiz Henrique',
+    seller: 1605,
+    betzord: 'https://pay.hotmart.com/S67803507J?checkoutMode=10&offDiscount=1605',
+    foguetinho: 'https://pay.hotmart.com/X70366315R?checkoutMode=10&offDiscount=1605',
+    tyltyscore: '',
+    copiloto: '',
+    tyltyscored1: '',
+    copilotod1: '',
+  },
+  {
+    name: 'Bruno Sonecka',
+    seller: 8621,
+    betzord: 'https://pay.hotmart.com/S67803507J?checkoutMode=10&offDiscount=8621',
+    foguetinho: 'https://pay.hotmart.com/X70366315R?checkoutMode=10&offDiscount=8621',
+    tyltyscore: '',
+    copiloto: '',
+    tyltyscored1: '',
+    copilotod1: '',
+  },
+  {
+    name: 'Thalia Cristina',
+    seller: 1217,
+    betzord: 'https://pay.hotmart.com/S67803507J?checkoutMode=10&offDiscount=1217',
+    foguetinho: 'https://pay.hotmart.com/X70366315R?checkoutMode=10&offDiscount=1217',
+    tyltyscore: '',
+    copiloto: '',
+    tyltyscored1: '',
+    copilotod1: '',
+  },
+  {
+    name: 'Evandro',
+    seller: 2323,
+    betzord: 'https://pay.hotmart.com/S67803507J?checkoutMode=10&offDiscount=2323',
+    foguetinho: 'https://pay.hotmart.com/X70366315R?checkoutMode=10&offDiscount=2323',
+    tyltyscore: '',
+    copiloto: '',
+    tyltyscored1: '',
+    copilotod1: '',
+  },
+  {
+    name: 'Willian Rocha',
+    seller: 5486,
+    betzord: 'https://pay.hotmart.com/S67803507J?checkoutMode=10&offDiscount=5486',
+    foguetinho: 'https://pay.hotmart.com/X70366315R?checkoutMode=10&offDiscount=5486',
+    tyltyscore: 'https://pay.hotmart.com/G66240687B?off=dcv97zf1&checkoutMode=10&offDiscount=5486',
+    copiloto: 'https://app.monetizze.com.br/checkout/CZC121957',
+    tyltyscored1: 'https://pay.hotmart.com/G66240687B?off=bzokiqcx&checkoutMode=10&offDiscount=5486',
+    copilotod1: 'https://app.monetizze.com.br/checkout/CRR121958',
+  },
+];
+
+// Validação da URL do produto SEM vendedor
+let productUrl = false;
+if (products && products[product] && products[product][target]) {
+  productUrl = products[product][target];
+} else if (products && products[product] && products[product].checkout) {
+  target = 'checkout';
+  productUrl = products[product][target];
+}
+
+// Default QS
+const trackingQs = {
+  utm_source: 'SPLITZ',
+  utm_medium: 'SPLITZ',
+  utm_campaign: 'SPLITZ',
+  utm_content: 'SPLITZ',
+  utm_seller_id: 'SPLITZ',
+  utm_target: target,
+  utm_x1: 'SPLITZ',
+  utm_x2: 'SPLITZ',
+  utm_x3: 'SPLITZ',
+};
+
+// Encontrar Vendedor com base na QS
+let sellerUrl = false;
+if (seller) {
+  sellerUrl = sellers.find((x) => x.seller.toString().toLowerCase().trim() === seller);
+  trackingQs.utm_seller_id = seller;
+}
+
+// Definir sellerUrl
+if (sellerUrl && sellerUrl && sellerUrl[product]) {
+  sellerUrl = sellerUrl[product];
+} else {
+  sellerUrl = false;
+}
+
+// Definição da URL final
+if (sellerUrl && target === 'checkout') {
+  url = new URL(sellerUrl); // URL = CHECKOUT DO VENDEDOR
+} else if (productUrl) {
+  url = new URL(productUrl); // URL = PÁGINA DE VENDAS
+} else { showError('NOURL'); } // ERRO - SEM URL
+
+if (url) {
+  // Definição do customUrl
+  if (sellerUrl) {
+    url.searchParams.set('customCheckout', sellerUrl);
+  } else if (productUrl) {
+    url.searchParams.set('customCheckout', products[product].checkout);
+  }
+
+  // QS da URL definida para uso
+  const mainQs = Object.fromEntries(url.searchParams);
+  // QS da URL requisitada
+  const hostQs = Object.fromEntries(hostUrl.searchParams);
+
+  // QS agrupada por prioridade
+  const finalQs = { ...trackingQs, ...mainQs, ...hostQs };
+
+  // Construção da QS sck
+  const sckString = `s-${finalQs.utm_source}|m-${finalQs.utm_medium}|p-${finalQs.utm_campaign}|c-${finalQs.utm_content}|u-${finalQs.utm_seller_id}|t-${finalQs.utm_target}|x1-${finalQs.utm_x1}|x2-${finalQs.utm_x2}|x3-${finalQs.utm_x3}`;
+  if (!finalQs.sck) { finalQs.sck = sckString; }
+
+  // QS Final aplicada
+  url.search = new URLSearchParams(finalQs);
+
+  // Custom Checkout
+  let customCheckout = url.searchParams.get('customCheckout');
+  if (customCheckout) {
+    customCheckout = new URL(customCheckout);
+    let customCheckoutQs = Object.fromEntries(customCheckout.searchParams);
+    customCheckoutQs = { ...customCheckoutQs, ...finalQs };
+    customCheckout.search = new URLSearchParams(customCheckoutQs);
+    // Insere o customCheckout na URL final
+    url.searchParams.set('customCheckout', customCheckout.href);
+  }
+
+  window.location.href = url.href;
+}
