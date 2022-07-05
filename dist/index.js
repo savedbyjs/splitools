@@ -229,6 +229,12 @@ const sellers = [
     foguetinho: '',
   },
   {
+    name: 'BRUNOCONCEITO',
+    seller: 'BRUNOCONCEITO',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CLZ123725',
+  },
+  {
     name: 'CACESA',
     seller: 'CACESA',
     betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=CACESA',
@@ -836,7 +842,7 @@ const sellers = [
   },
   {
     name: 'OGUSTAVOTUBARAO',
-    seller: 'AlissonJORDANN',
+    seller: 'OGUSTAVOTUBARAO',
     betzord: 'https://pay.hotmart.com/B66515443S?checkoutMode=10&bid=1644450672515&offDiscount=OGUSTAVOTUBARAO',
     foguetinho: '',
   },
@@ -1721,6 +1727,18 @@ const sellers = [
     seller: 'GALVAOSOMOFICIAL',
     betzord: '',
     foguetinho: 'https://app.monetizze.com.br/checkout/CSJ123871',
+  },
+  {
+    name: 'MAYK SANTOS',
+    seller: 'MAYKSANTOSDS',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=MAYKSANTOSDS',
+    foguetinho: '',
+  },
+  {
+    name: 'RAFAELA COSTA COUTO',
+    seller: 'XXRAZZ',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CLW124109',
   },
   {
     name: 'João Victor',
