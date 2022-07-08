@@ -1,3 +1,4 @@
+/* eslint-disable no-restricted-globals */
 /* eslint-disable max-len */
 /*
 TOOL: SPLIT -Z-
@@ -1889,5 +1890,9 @@ if (url) {
     url.searchParams.set('customCheckout', customCheckout.href);
   }
 
-  window.location.href = url.href;
+  if (seller && !isNaN(seller)) {
+    window.location.href = 'https://betzord.com/encerradas';
+  } else {
+    window.location.href = url.href;
+  }
 }
