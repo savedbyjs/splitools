@@ -287,7 +287,7 @@ const sellers = [
     name: 'DADAFAVATTO',
     seller: 'DADAFAVATTO',
     betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=DADAFAVATTO',
-    foguetinho: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CUD124159',
   },
   {
     name: 'DANGSOFICIAL',
@@ -1742,6 +1742,24 @@ const sellers = [
     foguetinho: 'https://app.monetizze.com.br/checkout/CLW124109',
   },
   {
+    name: 'DHULLY ZANELA',
+    seller: 'DHULLYZANELA',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=DHULLYZANELA',
+    foguetinho: '',
+  },
+  {
+    name: 'VINÍCIUS OLIVEIRA DA SILVA',
+    seller: 'ORIGINALVINICIUS',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CFD124160',
+  },
+  {
+    name: 'JOÃO GUIMARÃES MOREIRA NETO',
+    seller: 'JOAONETOMOREIRA',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=JOAONETOMOREIRA',
+    foguetinho: '',
+  },
+  {
     name: 'João Victor',
     seller: 1235,
     betzord: 'https://pay.hotmart.com/S67803507J?checkoutMode=10&offDiscount=1235',
@@ -1810,6 +1828,16 @@ const sellers = [
     copiloto: 'https://app.monetizze.com.br/checkout/CZC121957',
     tyltyscored1: 'https://pay.hotmart.com/G66240687B?off=bzokiqcx&checkoutMode=10&offDiscount=5486',
     copilotod1: 'https://app.monetizze.com.br/checkout/CRR121958',
+  },
+  {
+    name: 'Carla Oliveira',
+    seller: 1414,
+    betzord: 'https://pay.hotmart.com/S67803507J?checkoutMode=10&offDiscount=1414',
+    foguetinho: 'https://pay.hotmart.com/X70366315R?checkoutMode=10&offDiscount=1414',
+    tyltyscore: '',
+    copiloto: '',
+    tyltyscored1: '',
+    copilotod1: '',
   },
 ];
 
