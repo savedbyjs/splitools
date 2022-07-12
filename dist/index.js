@@ -1918,7 +1918,7 @@ if (url) {
     url.searchParams.set('customCheckout', customCheckout.href);
   }
 
-  if (seller && isNaN(seller)) {
+  if (seller && isNaN(seller) && product === 'betzord') {
     window.location.href = 'https://betzord.com/encerradas';
   } else {
     window.location.href = url.href;
