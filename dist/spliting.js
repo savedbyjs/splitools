@@ -1231,7 +1231,7 @@ const sellers = [
   },
   {
     name: 'MATHEUS BECKER SCHEYER',
-    seller: 'QUELANCEEXTRA',
+    seller: 'QUELANCEEXTRA\n',
     betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=QUELANCEEXTRA',
     foguetinho: '',
   },
@@ -1281,7 +1281,7 @@ const sellers = [
     name: 'PAULO HENRIQUE',
     seller: 'RIFASDOGURIZINHO',
     betzord: '',
-    foguetinho: 'https://app.monetizze.com.br/checkout/CYL121933',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CYL121933\r\n ',
   },
   {
     name: 'CARLÃO SOLTO',
@@ -1574,7 +1574,7 @@ const sellers = [
   {
     name: 'ALEXANDRE FERREIRA MORAES',
     seller: 'XANDEBRAZIL',
-    betzord: '',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=XANDEBRAZIL',
     foguetinho: 'https://app.monetizze.com.br/checkout/CBC123278',
   },
   {
@@ -1788,8 +1788,20 @@ const sellers = [
     foguetinho: 'https://app.monetizze.com.br/checkout/CMR124268',
   },
   {
+    name: 'ANTÔNIO PEDRO MENUSIER',
+    seller: 'MENUSIER',
+    betzord: 'https://pay.hotmart.com/F66259086P?checkoutMode=10&bid=1644249664838&offDiscount=MENUSIER',
+    foguetinho: '',
+  },
+  {
+    name: 'LEANDRO PEREIRA RENOVATO',
+    seller: 'LEANDROPEREIRA',
+    betzord: '',
+    foguetinho: 'https://app.monetizze.com.br/checkout/CEB124465',
+  },
+  {
     name: 'João Victor',
-    seller: 1235,
+    seller: '1235',
     betzord: 'https://pay.hotmart.com/S67803507J?checkoutMode=10&offDiscount=1235',
     foguetinho: 'https://pay.hotmart.com/X70366315R?checkoutMode=10&offDiscount=1235',
     vivendodevideos: 'https://pay.hotmart.com/Q72645674O?checkoutMode=10&offDiscount=1235',
@@ -1800,7 +1812,7 @@ const sellers = [
   },
   {
     name: 'Daniel H',
-    seller: 1994,
+    seller: '1994',
     betzord: 'https://pay.hotmart.com/S67803507J?checkoutMode=10&offDiscount=1994',
     foguetinho: 'https://pay.hotmart.com/X70366315R?checkoutMode=10&offDiscount=1994',
     vivendodevideos: 'https://pay.hotmart.com/Q72645674O?checkoutMode=10&offDiscount=1994',
@@ -1811,7 +1823,7 @@ const sellers = [
   },
   {
     name: 'Luiz Henrique',
-    seller: 1605,
+    seller: '1605',
     betzord: 'https://pay.hotmart.com/S67803507J?checkoutMode=10&offDiscount=1605',
     foguetinho: 'https://pay.hotmart.com/X70366315R?checkoutMode=10&offDiscount=1605',
     vivendodevideos: 'https://pay.hotmart.com/Q72645674O?checkoutMode=10&offDiscount=1605',
@@ -1822,7 +1834,7 @@ const sellers = [
   },
   {
     name: 'Bruno Sonecka',
-    seller: 8621,
+    seller: '8621',
     betzord: 'https://pay.hotmart.com/S67803507J?checkoutMode=10&offDiscount=8621',
     foguetinho: 'https://pay.hotmart.com/X70366315R?checkoutMode=10&offDiscount=8621',
     vivendodevideos: 'https://pay.hotmart.com/Q72645674O?checkoutMode=10&offDiscount=8621',
@@ -1833,7 +1845,7 @@ const sellers = [
   },
   {
     name: 'Thalia Cristina',
-    seller: 1217,
+    seller: '1217',
     betzord: 'https://pay.hotmart.com/S67803507J?checkoutMode=10&offDiscount=1217',
     foguetinho: 'https://pay.hotmart.com/X70366315R?checkoutMode=10&offDiscount=1217',
     vivendodevideos: 'https://pay.hotmart.com/Q72645674O?checkoutMode=10&offDiscount=1217',
@@ -1844,7 +1856,7 @@ const sellers = [
   },
   {
     name: 'Evandro',
-    seller: 2323,
+    seller: '2323',
     betzord: 'https://pay.hotmart.com/S67803507J?checkoutMode=10&offDiscount=2323',
     foguetinho: 'https://pay.hotmart.com/X70366315R?checkoutMode=10&offDiscount=2323',
     vivendodevideos: 'https://pay.hotmart.com/Q72645674O?checkoutMode=10&offDiscount=2323',
@@ -1855,7 +1867,7 @@ const sellers = [
   },
   {
     name: 'Willian Rocha',
-    seller: 5486,
+    seller: '5486',
     betzord: 'https://pay.hotmart.com/S67803507J?checkoutMode=10&offDiscount=5486',
     foguetinho: 'https://pay.hotmart.com/X70366315R?checkoutMode=10&offDiscount=5486',
     vivendodevideos: 'https://pay.hotmart.com/Q72645674O?checkoutMode=10&offDiscount=5486',
@@ -1866,7 +1878,7 @@ const sellers = [
   },
   {
     name: 'Carla Oliveira',
-    seller: 1414,
+    seller: '1414',
     betzord: 'https://pay.hotmart.com/S67803507J?checkoutMode=10&offDiscount=1414',
     foguetinho: 'https://pay.hotmart.com/X70366315R?checkoutMode=10&offDiscount=1414',
     vivendodevideos: 'https://pay.hotmart.com/Q72645674O?checkoutMode=10&offDiscount=1414',
